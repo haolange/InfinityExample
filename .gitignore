@@ -6,6 +6,7 @@
 [Bb]uilds/
 [Ll]ogs/
 Packages/packages-lock.json
+Packages/com.infinity.render-pipeline*
 
 # Visual Studio cache directory
 .vs/

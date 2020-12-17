@@ -2,6 +2,7 @@
 using Unity.Burst;
 using UnityEngine;
 using Unity.Collections;
+using Unity.Collections.LowLevel.Unsafe;
 
 [BurstCompile]
 public struct TestJob : IJob
@@ -36,6 +37,29 @@ public struct ParallelTestJob : IJobParallelFor
     }
 }
 
+//[BurstCompile]
+public struct ParallelHashmapJob : IJobParallelFor
+{
+    [ReadOnly]
+    public NativeArray<int> HashmapKey;
+    
+    [ReadOnly]
+    public NativeHashMap<int, float> HashmapData;
+
+    public void Execute(int index)
+    {
+        int Key = HashmapKey[index];
+        Debug.Log(HashmapData[Key]);
+    }
+}
+
+public unsafe struct MyClass
+{
+    public float Float;
+}
+
+
+
 public class JobTest : MonoBehaviour
 {
     NativeArray<float> Result;
@@ -43,6 +67,8 @@ public class JobTest : MonoBehaviour
     void OnEnable()
     {
         Result = new NativeArray<float>(1024, Allocator.Persistent);
+        //NativeHashmapTest();
+        UnsafeTest();
     }
 
     void Update()
@@ -50,7 +76,7 @@ public class JobTest : MonoBehaviour
         //RunNet();
         //RunNetNative();
         //RunJob();
-        RunParallelJob();
+        //RunParallelJob();
         //NativeListTest();
     }
 
@@ -145,6 +171,42 @@ public class JobTest : MonoBehaviour
         result[2] = 2;
 
         result.Dispose();
+    }
+
+    void NativeHashmapTest()
+    {
+        NativeHashMap<int, float> HashmapData = new NativeHashMap<int, float>(5, Allocator.TempJob);
+        HashmapData.Add(0, 0.1f);
+        HashmapData.Add(1, 0.2f);
+        HashmapData.Add(2, 0.3f);
+        HashmapData.Add(3, 0.4f);
+        HashmapData.Add(4, 0.5f);
+        HashmapData.Add(5, 0.6f);
+
+        NativeArray<int> HashmapKey = HashmapData.GetKeyArray(Allocator.TempJob);
+
+        /*for(int i = 0; i < HashmapKey.Length; i++)
+        {
+            int Key = HashmapKey[i];
+            print(Hashmap[Key]);
+        }*/
+
+        ParallelHashmapJob ParallelJob = new ParallelHashmapJob();
+        ParallelJob.HashmapKey = HashmapKey;
+        ParallelJob.HashmapData = HashmapData;
+
+        ParallelJob.Schedule(HashmapKey.Length, 1).Complete();
+
+        HashmapData.Dispose();
+        HashmapKey.Dispose();
+    }
+
+    unsafe void UnsafeTest()
+    {
+        MyClass* MyData = (MyClass*)UnsafeUtility.Malloc(sizeof(MyClass), 4, Allocator.Persistent);
+        MyData->Float = 150;
+
+        print(MyData->Float);
     }
 
     void OnDisable()

@@ -203,10 +203,11 @@ public class JobTest : MonoBehaviour
 
     unsafe void UnsafeTest()
     {
-        MyClass* MyData = (MyClass*)UnsafeUtility.Malloc(sizeof(MyClass), 4, Allocator.Persistent);
+        MyClass* MyData = (MyClass*)UnsafeUtility.Malloc(sizeof(MyClass), 4, Allocator.Temp);
         MyData->Float = 150;
 
         print(MyData->Float);
+        UnsafeUtility.Free(MyData, Allocator.Temp);
     }
 
     void OnDisable()

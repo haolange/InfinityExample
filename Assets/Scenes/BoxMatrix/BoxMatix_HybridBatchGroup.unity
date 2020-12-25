@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1492b90d376fc7d4fa22038640b1a762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bUpdateStatic: 0
   bInit: 1
   RenderScene:
     name: RenderScene
@@ -424,7 +425,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
-  serializedVersion: 2
+  serializedVersion: 3
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
@@ -446,7 +447,7 @@ LightingSettings:
   m_MixedBakeMode: 2
   m_LightmapsBakeMode: 1
   m_FilterMode: 1
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
   m_ExportTrainingData: 0
   m_TrainingDataDestination: TrainingData
   m_RealtimeResolution: 2
@@ -463,7 +464,7 @@ LightingSettings:
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 4
-  m_PVRRussianRouletteStartBounce: 2
+  m_PVRMinBounces: 1
   m_PVREnvironmentMIS: 0
   m_PVRFilteringMode: 2
   m_PVRDenoiserTypeDirect: 1
@@ -966,7 +967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b461597c1f2764ea25d546fd978935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeshTransform: {fileID: 1447851830}
+  EntityTransform: {fileID: 1447851830}
   UnityCamera: {fileID: 1447851829}
 --- !u!114 &1447851828
 MonoBehaviour:
@@ -1115,15 +1116,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 396524074906544736, guid: 535af51aed0bbbc419b484ce9aed497b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 396524074906544736, guid: 535af51aed0bbbc419b484ce9aed497b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 396524074906544736, guid: 535af51aed0bbbc419b484ce9aed497b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 396524074906544736, guid: 535af51aed0bbbc419b484ce9aed497b, type: 3}
       propertyPath: m_LocalRotation.w

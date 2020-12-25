@@ -3,6 +3,7 @@ using Unity.Burst;
 using UnityEngine;
 using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
+using InfinityTech.Runtime.Rendering.MeshDrawPipeline;
 
 [BurstCompile]
 public struct TestJob : IJob
@@ -67,8 +68,13 @@ public class JobTest : MonoBehaviour
     void OnEnable()
     {
         Result = new NativeArray<float>(1024, Allocator.Persistent);
+
         //NativeHashmapTest();
-        UnsafeTest();
+
+        //UnsafeTestA();
+        //UnsafeTestB();
+
+        NativeHashmapToArrayTest();
     }
 
     void Update()
@@ -201,12 +207,46 @@ public class JobTest : MonoBehaviour
         HashmapKey.Dispose();
     }
 
-    unsafe void UnsafeTest()
+    void NativeHashmapToArrayTest()
+    {
+        NativeArray<int> ValueArray = new NativeArray<int>(5, Allocator.TempJob);
+
+        NativeHashMap<int, int> HashmapData = new NativeHashMap<int, int>(5, Allocator.TempJob);
+        HashmapData.Add(0, 100);
+        HashmapData.Add(1, 200);
+        HashmapData.Add(2, 300);
+        HashmapData.Add(3, 400);
+        HashmapData.Add(4, 500);
+
+        HashmapValueToArrayParallel<int, int> HashmapValueToArrayTask = new HashmapValueToArrayParallel<int, int>();
+        HashmapValueToArrayTask.Array = ValueArray;
+        HashmapValueToArrayTask.Hashmap = HashmapData;
+
+        HashmapValueToArrayTask.Schedule(5, 1).Complete();
+
+        ValueArray.Dispose();
+        HashmapData.Dispose();
+    }
+
+    unsafe void UnsafeTestA()
     {
         MyClass* MyData = (MyClass*)UnsafeUtility.Malloc(sizeof(MyClass), 4, Allocator.Temp);
         MyData->Float = 150;
 
         print(MyData->Float);
+        UnsafeUtility.Free(MyData, Allocator.Temp);
+    }
+
+    unsafe void UnsafeTestB()
+    {
+        int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int) * 5, 4, Allocator.Temp);
+        MyData[0] = 1;
+        MyData[1] = 2;
+        MyData[2] = 3;
+        MyData[3] = 4;
+        MyData[4] = 5;
+
+        print(MyData[0]);
         UnsafeUtility.Free(MyData, Allocator.Temp);
     }
 

@@ -89,7 +89,7 @@ namespace Unity.Collections
         where TKey : struct, IEquatable<TKey>
         where TValue : struct
     {
-        internal UnsafeHashMap<TKey, TValue> m_HashMapData;
+        public UnsafeHashMap<TKey, TValue> m_HashMapData;
 
 #if ENABLE_UNITY_COLLECTIONS_CHECKS
         internal AtomicSafetyHandle m_Safety;

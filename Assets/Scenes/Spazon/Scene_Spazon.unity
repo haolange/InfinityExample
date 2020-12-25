@@ -503,6 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1492b90d376fc7d4fa22038640b1a762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bUpdateStatic: 0
   bInit: 1
   RenderScene:
     name: RenderScene

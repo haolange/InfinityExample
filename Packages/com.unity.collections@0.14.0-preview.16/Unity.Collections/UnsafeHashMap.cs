@@ -53,14 +53,14 @@ namespace Unity.Collections.LowLevel.Unsafe
     }
 
     [StructLayout(LayoutKind.Explicit)]
-    internal unsafe struct UnsafeHashMapData
+    public unsafe struct UnsafeHashMapData
     {
         [FieldOffset(0)]
-        internal byte* values;
+        public byte* values;
         // 4-byte padding on 32-bit architectures here
 
         [FieldOffset(8)]
-        internal byte* keys;
+        public byte* keys;
         // 4-byte padding on 32-bit architectures here
 
         [FieldOffset(16)]
@@ -326,16 +326,12 @@ namespace Unity.Collections.LowLevel.Unsafe
             }
         }
 
-        internal static void GetValueArray<TValue>(UnsafeHashMapData* data, NativeArray<TValue> result)
-            where TValue : struct
+        internal static void GetValueArray<TValue>(UnsafeHashMapData* data, NativeArray<TValue> result) where TValue : struct
         {
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;
 
-            for (int i = 0, count = 0, max = result.Length, capacityMask = data->bucketCapacityMask
-                ; i <= capacityMask && count < max
-                ; ++i
-                )
+            for (int i = 0, count = 0, max = result.Length, capacityMask = data->bucketCapacityMask; i <= capacityMask && count < max; ++i)
             {
                 int bucket = bucketArray[i];
 
@@ -1048,7 +1044,7 @@ namespace Unity.Collections.LowLevel.Unsafe
         where TValue : struct
     {
         [NativeDisableUnsafePtrRestriction]
-        internal UnsafeHashMapData* m_Buffer;
+        public UnsafeHashMapData* m_Buffer;
         internal Allocator m_AllocatorLabel;
 
         /// <summary>

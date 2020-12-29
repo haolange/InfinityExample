@@ -218,7 +218,7 @@ public class JobTest : MonoBehaviour
         HashmapData.Add(3, 400);
         HashmapData.Add(4, 500);
 
-        HashmapValueToArrayParallel<int, int> HashmapValueToArrayTask = new HashmapValueToArrayParallel<int, int>();
+        FHashmapValueToArrayParallelJob<int, int> HashmapValueToArrayTask = new FHashmapValueToArrayParallelJob<int, int>();
         HashmapValueToArrayTask.Array = ValueArray;
         HashmapValueToArrayTask.Hashmap = HashmapData;
 

@@ -54,11 +54,10 @@ public struct ParallelHashmapJob : IJobParallelFor
     }
 }
 
-public unsafe struct MyClass
+public unsafe struct PointerStruct
 {
     public float Float;
 }
-
 
 
 public class JobTest : MonoBehaviour
@@ -71,10 +70,12 @@ public class JobTest : MonoBehaviour
 
         //NativeHashmapTest();
 
-        //UnsafeTestA();
-        //UnsafeTestB();
+        //UnsafeStructTest();
+        //UnsafeArrayTest();
 
-        NativeHashmapToArrayTest();
+        UnsafeClassTest();
+
+        //NativeHashmapToArrayTest();
     }
 
     void Update()
@@ -228,16 +229,25 @@ public class JobTest : MonoBehaviour
         HashmapData.Dispose();
     }
 
-    unsafe void UnsafeTestA()
+    unsafe void UnsafeStructTest()
     {
-        MyClass* MyData = (MyClass*)UnsafeUtility.Malloc(sizeof(MyClass), 4, Allocator.Temp);
+        PointerStruct* MyData = (PointerStruct*)UnsafeUtility.Malloc(sizeof(PointerStruct), 4, Allocator.Temp);
         MyData->Float = 150;
 
         print(MyData->Float);
         UnsafeUtility.Free(MyData, Allocator.Temp);
     }
 
-    unsafe void UnsafeTestB()
+    unsafe void UnsafeClassTest()
+    {
+        PointerStruct* MyData = (PointerStruct*)UnsafeUtility.Malloc(sizeof(PointerStruct), 64, Allocator.Temp);
+        MyData->Float = 150;
+
+        print(MyData->Float);
+        UnsafeUtility.Free(MyData, Allocator.Temp);
+    }
+
+    unsafe void UnsafeArrayTest()
     {
         int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int) * 5, 4, Allocator.Temp);
         MyData[0] = 1;

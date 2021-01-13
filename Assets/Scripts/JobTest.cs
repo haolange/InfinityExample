@@ -96,6 +96,7 @@ public class JobTest : MonoBehaviour
         //UnsafeStructTest();
         //UnsafeArrayTest();
         //UnsafeClassTest();
+        NativeMultiHashmapTest();
         //NativeHashmapToArrayTest();
     }
 
@@ -107,7 +108,7 @@ public class JobTest : MonoBehaviour
         //RunParallelJob();
         //NativeListTest();
 
-        SortTest();
+        //SortTest();
     }
 
     void RunNet()
@@ -250,6 +251,31 @@ public class JobTest : MonoBehaviour
 
         ValueArray.Dispose();
         HashmapData.Dispose();
+    }
+
+    void NativeMultiHashmapTest()
+    {
+        NativeMultiHashMap<int, float> MultiMap = new NativeMultiHashMap<int, float>(16, Allocator.TempJob);
+
+        MultiMap.Add(0, 0.25f);
+        MultiMap.Add(0, 0.25f);
+        MultiMap.Add(0, 0.75f);
+        MultiMap.Add(0, 0.99f);
+        MultiMap.Add(1, 1.25f);
+        MultiMap.Add(1, 1.5f);
+        MultiMap.Add(1, 1.75f);
+        MultiMap.Add(1, 1.99f);
+
+        float OutData;
+        if (MultiMap.TryGetFirstValue(0, out OutData, out var iterator))
+        {
+            while (MultiMap.TryGetNextValue(out OutData, ref iterator))
+            {
+                print(OutData);
+            }
+        }
+
+        MultiMap.Dispose();
     }
 
     unsafe void UnsafeStructTest()

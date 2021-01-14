@@ -2,9 +2,9 @@
 using Unity.Burst;
 using UnityEngine;
 using Unity.Collections;
-using InfinityTech.Runtime.Core.Native;
+using InfinityTech.Core.Native;
 using Unity.Collections.LowLevel.Unsafe;
-using InfinityTech.Runtime.Rendering.MeshDrawPipeline;
+using InfinityTech.Rendering.MeshDrawPipeline;
 
 [BurstCompile]
 public struct TestJob : IJob

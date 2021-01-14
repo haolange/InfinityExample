@@ -290,7 +290,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 548
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -335,7 +335,7 @@ MonoBehaviour:
       y: -72.21585
       z: 15.01251
       w: 1
-  MeshBatchCacheID: 6c548a9a
+  MeshBatchCacheID: fc309a9a
 --- !u!1 &70498370
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +408,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -453,7 +453,7 @@ MonoBehaviour:
       y: -35.0589
       z: 86.630394
       w: 1
-  MeshBatchCacheID: 24eb27a8
+  MeshBatchCacheID: b4c737a8
 --- !u!1 &71435257
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +626,8 @@ Transform:
   m_LocalRotation: {x: -0.08945875, y: -0.7585894, z: -0.10661279, w: 0.63653207}
   m_LocalPosition: {x: 8, y: -1.25, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 129618224}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -737,7 +738,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2044979726}
+  m_Father: {fileID: 127089303}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &161730439
@@ -1239,7 +1240,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -1284,7 +1285,7 @@ MonoBehaviour:
       y: 87.0792
       z: 2.1905334
       w: 1
-  MeshBatchCacheID: 4ac924ff
+  MeshBatchCacheID: 6ca734ff
 --- !u!1 &611816572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,7 +2403,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 548
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -2447,7 +2448,7 @@ MonoBehaviour:
       y: -7.335916
       z: 79.95687
       w: 1
-  MeshBatchCacheID: 713d8366
+  MeshBatchCacheID: 931b9366
 --- !u!1 &915485940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,7 +2521,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -2565,7 +2566,7 @@ MonoBehaviour:
       y: 50.208233
       z: 44.770267
       w: 1
-  MeshBatchCacheID: cc1e06bc
+  MeshBatchCacheID: eefc15bc
 --- !u!1 &921869940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3309,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -3353,7 +3354,7 @@ MonoBehaviour:
       y: 9.206934
       z: 39.139095
       w: 1
-  MeshBatchCacheID: 077b73df
+  MeshBatchCacheID: 295983df
 --- !u!1 &1133641471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,7 +4155,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 548
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -4199,7 +4200,7 @@ MonoBehaviour:
       y: 22.609322
       z: 82.82751
       w: 1
-  MeshBatchCacheID: ed8f087f
+  MeshBatchCacheID: 796c187f
 --- !u!1 &1590897952
 GameObject:
   m_ObjectHideFlags: 0
@@ -4463,7 +4464,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
+  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -4508,7 +4509,7 @@ MonoBehaviour:
       y: 3.584649
       z: -73.645706
       w: 1
-  MeshBatchCacheID: f7960304
+  MeshBatchCacheID: 19751304
 --- !u!1 &1639129536
 GameObject:
   m_ObjectHideFlags: 0
@@ -5582,8 +5583,7 @@ Transform:
   m_LocalRotation: {x: -0.19894509, y: 0.64219624, z: -0.1860567, w: -0.7165109}
   m_LocalPosition: {x: -24.287073, y: -26.849, z: -23.127707}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 129618224}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 31.605, y: 276.473, z: 0.747}
@@ -6616,9 +6616,10 @@ Animation:
   m_GameObject: {fileID: 8296172668125900810}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: -8122253741631232824, guid: f1e72ae3d08805b4b916651568cba4e4, type: 3}
+  m_Animation: {fileID: -8122253741631232824, guid: 6705595d420bf244bb005e5dcb642dea, type: 3}
   m_Animations:
   - {fileID: -8122253741631232824, guid: f1e72ae3d08805b4b916651568cba4e4, type: 3}
+  - {fileID: -8122253741631232824, guid: 6705595d420bf244bb005e5dcb642dea, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

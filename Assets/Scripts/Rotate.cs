@@ -8,6 +8,12 @@ public class Rotate : MonoBehaviour
     public Vector3 axil = Vector3.up;
     public float speed = 0.1f;
 
+    void OnEnable()
+    {
+        //Debug.Log("One : " + (548 << 16 | 21720));
+        //Debug.Log("Two : " + (544 << 16 | 21724));
+    }
+
     void Update()
     {
         transform.Rotate(axil, speed, Space.World);

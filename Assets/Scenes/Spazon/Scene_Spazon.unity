@@ -290,7 +290,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 548
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -335,7 +334,7 @@ MonoBehaviour:
       y: -72.21585
       z: 15.01251
       w: 1
-  MeshBatchCacheID: fa1da697
+  MeshBatchCacheID: 9c8e5979
 --- !u!1 &70498370
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +407,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -453,7 +451,7 @@ MonoBehaviour:
       y: -35.0589
       z: 86.630394
       w: 1
-  MeshBatchCacheID: 8f3709d9
+  MeshBatchCacheID: 9f658907
 --- !u!1 &71435257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1237,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -1284,7 +1281,7 @@ MonoBehaviour:
       y: 87.0792
       z: 2.1905334
       w: 1
-  MeshBatchCacheID: d32cd0a8
+  MeshBatchCacheID: ecc594e1
 --- !u!1 &611816572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,9 +2352,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871193594}
-  m_LocalRotation: {x: -0.13872075, y: -0.25691935, z: -0.94718206, w: 0.13264711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -27.268, y: -28, z: -24.127}
-  m_LocalScale: {x: 0.5000005, y: 0.50000036, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 829060823}
   m_RootOrder: 1
@@ -2402,24 +2399,23 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 548
   LastGeometryState: 0
   Matrix_LocalToWorld:
     c0:
-      x: -0.46316186
-      y: -0.090001
-      z: 0.16547358
+      x: 1
+      y: 0
+      z: 0
       w: 0
     c1:
-      x: 0.16128112
-      y: -0.41639757
-      z: 0.22494866
+      x: 0
+      y: 1
+      z: 0
       w: 0
     c2:
-      x: 0.097314194
-      y: 0.2617503
-      z: 0.414749
+      x: 0
+      y: 0
+      z: 1
       w: 0
     c3:
       x: -27.268
@@ -2428,26 +2424,26 @@ MonoBehaviour:
       w: 1
   Matrix_WorldToLocal:
     c0:
-      x: -1.852643
-      y: 0.6451233
-      z: 0.38925672
+      x: 1
+      y: 0
+      z: 0
       w: 0
     c1:
-      x: -0.36000308
-      y: -1.6655872
-      z: 1.047001
+      x: 0
+      y: 1
+      z: 0
       w: 0
     c2:
-      x: 0.6618928
-      y: 0.89979315
-      z: 1.658996
+      x: 0
+      y: 0
+      z: 1
       w: 0
     c3:
-      x: -44.62847
-      y: -7.335916
-      z: 79.95687
+      x: 27.268
+      y: 28
+      z: 24.127
       w: 1
-  MeshBatchCacheID: 0ce8ab48
+  MeshBatchCacheID: ffec6913
 --- !u!1 &915485940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,7 +2516,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 0
   LastMeshInstanceID: 550
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -2565,7 +2560,7 @@ MonoBehaviour:
       y: 50.208233
       z: 44.770267
       w: 1
-  MeshBatchCacheID: 01fab6bb
+  MeshBatchCacheID: 73fbb6bb
 --- !u!1 &921869940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3303,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 0
   Matrix_LocalToWorld:
@@ -3353,7 +3347,7 @@ MonoBehaviour:
       y: 9.206934
       z: 39.139095
       w: 1
-  MeshBatchCacheID: a5024964
+  MeshBatchCacheID: f7190f32
 --- !u!1 &1133641471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,7 +4148,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 548
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -4199,7 +4192,7 @@ MonoBehaviour:
       y: 22.609322
       z: 82.82751
       w: 1
-  MeshBatchCacheID: 44eeacac
+  MeshBatchCacheID: c7530361
 --- !u!1 &1590897952
 GameObject:
   m_ObjectHideFlags: 0
@@ -4463,7 +4456,6 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  bInitTransfrom: 1
   LastMeshInstanceID: 544
   LastGeometryState: 1
   Matrix_LocalToWorld:
@@ -4508,7 +4500,7 @@ MonoBehaviour:
       y: 3.584649
       z: -73.645706
       w: 1
-  MeshBatchCacheID: e023c55b
+  MeshBatchCacheID: fc141810
 --- !u!1 &1639129536
 GameObject:
   m_ObjectHideFlags: 0

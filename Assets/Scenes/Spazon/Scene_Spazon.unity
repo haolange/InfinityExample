@@ -334,7 +334,7 @@ MonoBehaviour:
       y: -72.21585
       z: 15.01251
       w: 1
-  MeshBatchCacheID: 9c8e5979
+  MeshBatchCacheID: 1026a697
 --- !u!1 &70498370
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
       y: -35.0589
       z: 86.630394
       w: 1
-  MeshBatchCacheID: 9f658907
+  MeshBatchCacheID: a53f09d9
 --- !u!1 &71435257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1281,7 @@ MonoBehaviour:
       y: 87.0792
       z: 2.1905334
       w: 1
-  MeshBatchCacheID: ecc594e1
+  MeshBatchCacheID: 5133d0a8
 --- !u!1 &611816572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2443,7 @@ MonoBehaviour:
       y: 28
       z: 24.127
       w: 1
-  MeshBatchCacheID: ffec6913
+  MeshBatchCacheID: 17f4ce33
 --- !u!1 &915485940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2560,7 @@ MonoBehaviour:
       y: 50.208233
       z: 44.770267
       w: 1
-  MeshBatchCacheID: 73fbb6bb
+  MeshBatchCacheID: e7f747f6
 --- !u!1 &921869940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3347,7 +3347,7 @@ MonoBehaviour:
       y: 9.206934
       z: 39.139095
       w: 1
-  MeshBatchCacheID: f7190f32
+  MeshBatchCacheID: 23094964
 --- !u!1 &1133641471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4192,7 +4192,7 @@ MonoBehaviour:
       y: 22.609322
       z: 82.82751
       w: 1
-  MeshBatchCacheID: c7530361
+  MeshBatchCacheID: 5af6acac
 --- !u!1 &1590897952
 GameObject:
   m_ObjectHideFlags: 0
@@ -4500,7 +4500,7 @@ MonoBehaviour:
       y: 3.584649
       z: -73.645706
       w: 1
-  MeshBatchCacheID: fc141810
+  MeshBatchCacheID: 5e2ac55b
 --- !u!1 &1639129536
 GameObject:
   m_ObjectHideFlags: 0

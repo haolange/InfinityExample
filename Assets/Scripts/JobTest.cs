@@ -54,6 +54,23 @@ public struct ParallelCopy<T> : IJobParallelFor where T : struct
     }
 }
 
+[BurstCompile]
+public struct FParallelListAddJob : IJobParallelFor
+{
+    [ReadOnly]
+    public NativeArray<int> ParallelData;
+
+    [NativeDisableParallelForRestriction]
+    public NativeList<int>.ParallelWriter ParallelBuffer;
+
+    public void Execute(int index)
+    {
+        if (ParallelData[index] % 64 == 0)
+        {
+            ParallelBuffer.AddNoResize(index);
+        }
+    }
+}
 
 //[BurstCompile]
 public struct ParallelHashmapJob : IJobParallelFor
@@ -96,7 +113,7 @@ public class JobTest : MonoBehaviour
         //UnsafeStructTest();
         //UnsafeArrayTest();
         //UnsafeClassTest();
-        NativeMultiHashmapTest();
+        //NativeMultiHashmapTest();
         //NativeHashmapToArrayTest();
     }
 
@@ -107,7 +124,7 @@ public class JobTest : MonoBehaviour
         //RunJob();
         //RunParallelJob();
         //NativeListTest();
-
+        ParallelWrite();
         //SortTest();
     }
 
@@ -337,7 +354,27 @@ public class JobTest : MonoBehaviour
         CopyData.Dispose();
     }
 
-    void OnDisable()
+    void ParallelWrite()
+    {
+        NativeArray<int> ParallelData = new NativeArray<int>(512, Allocator.TempJob);
+        for (int i = 0; i < 512; i++)
+        {
+            ParallelData[i] = i;
+        }
+
+        NativeList<int> ParallelBuffer = new NativeList<int>(512, Allocator.TempJob);
+
+        FParallelListAddJob ParallelJob = new FParallelListAddJob();
+        ParallelJob.ParallelData = ParallelData;
+        ParallelJob.ParallelBuffer = ParallelBuffer.AsParallelWriter();
+
+        ParallelJob.Schedule(ParallelData.Length, 64).Complete();
+
+        ParallelData.Dispose();
+        ParallelBuffer.Dispose();
+    }
+
+void OnDisable()
     {
         Result.Dispose();
     }

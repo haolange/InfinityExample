@@ -21,6 +21,15 @@ public struct TestJob : IJob
     }
 }
 
+//[BurstCompile]
+public struct OneJob : IJobParallelFor
+{
+    public void Execute(int i)
+    {
+        Debug.Log(i);
+    }
+}
+
 [BurstCompile]
 public struct ParallelTestJob : IJobParallelFor
 {
@@ -113,7 +122,7 @@ public class JobTest : MonoBehaviour
         //UnsafeStructTest();
         //UnsafeArrayTest();
         //UnsafeClassTest();
-        //NativeMultiHashmapTest();
+        NativeMultiHashmapTest();
         //NativeHashmapToArrayTest();
     }
 
@@ -124,8 +133,11 @@ public class JobTest : MonoBehaviour
         //RunJob();
         //RunParallelJob();
         //NativeListTest();
-        ParallelWrite();
+        //ParallelWrite();
         //SortTest();
+
+        /*OneJob Task = new OneJob();
+        Task.Schedule(512, 64);*/
     }
 
     void RunNet()
@@ -284,6 +296,8 @@ public class JobTest : MonoBehaviour
         MultiMap.Add(1, 1.99f);
 
         float OutData;
+        int Count = MultiMap.Count();
+
         if (MultiMap.TryGetFirstValue(0, out OutData, out var iterator))
         {
             while (MultiMap.TryGetNextValue(out OutData, ref iterator))
@@ -315,14 +329,13 @@ public class JobTest : MonoBehaviour
 
     unsafe void UnsafeArrayTest()
     {
-        int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int) * 5, 4, Allocator.Temp);
+        int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int) * 5, 64, Allocator.Temp);
         MyData[0] = 1;
         MyData[1] = 2;
         MyData[2] = 3;
         MyData[3] = 4;
         MyData[4] = 5;
 
-        print(MyData[0]);
         UnsafeUtility.Free(MyData, Allocator.Temp);
     }
 
@@ -374,7 +387,7 @@ public class JobTest : MonoBehaviour
         ParallelBuffer.Dispose();
     }
 
-void OnDisable()
+    void OnDisable()
     {
         Result.Dispose();
     }

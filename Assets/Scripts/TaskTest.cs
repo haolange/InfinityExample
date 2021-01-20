@@ -1,54 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Threading;
+using System.Collections;
 using System.Threading.Tasks;
+using UnityEngine.Rendering;
+using System.Collections.Generic;
 
 public class TaskTest : MonoBehaviour
 {
-    public ComputeBuffer GPUBuffer;
-    int[] IntArray;
+    Thread MyThread;
 
     void OnEnable()
     {
-        IntArray = new int[]{100, 200};
-        GPUBuffer = new ComputeBuffer(2, 4);
-    }
-
-    void ExecuteTaskA()
-    {
-        print("InTaskA");
-    }
-
-    void ExecuteTaskB(Task ParentTask)
-    {
-        print("InTaskB");
-        //GPUBuffer.SetData(IntArray);
-    }
-
-    void ExecuteTask()
-    {
-        print("BeforeTask");
-
-        Task TaskA = new Task(ExecuteTaskA);
-        TaskA.Start();
-
-        Task TaskB = TaskA.ContinueWith(ExecuteTaskB);
-
-        //Sync Task
-        //TaskA.Wait();
-        TaskB.Wait();
-        print("AfterTask");
+        MyThread = new Thread(ThreadFunc);
+        MyThread.Start();
     }
 
     void Update()
     {
-        //ExecuteTask();
-        print("Task");
-        //Shader.SetGlobalBuffer("_ASyncBuffer", GPUBuffer);
+
+    }
+
+    void ThreadFunc()
+    {
+
     }
 
     void OnDisable()
     {
-        GPUBuffer.Dispose();
+
     }
 }

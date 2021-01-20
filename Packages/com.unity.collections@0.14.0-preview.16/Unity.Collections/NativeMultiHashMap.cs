@@ -41,7 +41,7 @@ namespace Unity.Collections
         where TKey : struct, IEquatable<TKey>
         where TValue : struct
     {
-        internal UnsafeMultiHashMap<TKey, TValue> m_MultiHashMapData;
+        public UnsafeMultiHashMap<TKey, TValue> m_MultiHashMapData;
 
 #if ENABLE_UNITY_COLLECTIONS_CHECKS
         internal AtomicSafetyHandle m_Safety;
@@ -303,6 +303,12 @@ namespace Unity.Collections
             return m_MultiHashMapData.GetKeyArray(allocator);
         }
 
+        public void GetKeyArray(in NativeArray<TKey> result)
+        {
+            CheckRead();
+            m_MultiHashMapData.GetKeyArray(result);
+        }
+
         /// <summary>
         /// Returns array populated with values.
         /// </summary>
@@ -313,6 +319,12 @@ namespace Unity.Collections
         {
             CheckRead();
             return m_MultiHashMapData.GetValueArray(allocator);
+        }
+
+        public void GetValueArray(in NativeArray<TValue> result)
+        {
+            CheckRead();
+            m_MultiHashMapData.GetValueArray(result);
         }
 
         /// <summary>

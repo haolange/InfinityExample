@@ -308,8 +308,7 @@ namespace Unity.Collections.LowLevel.Unsafe
             return false;
         }
 
-        internal static void GetKeyArray<TKey>(UnsafeHashMapData* data, NativeArray<TKey> result)
-            where TKey : struct
+        internal static void GetKeyArray<TKey>(UnsafeHashMapData* data, NativeArray<TKey> result) where TKey : struct
         {
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;
@@ -1237,6 +1236,11 @@ namespace Unity.Collections.LowLevel.Unsafe
             return result;
         }
 
+        public void GetKeyArray(in NativeArray<TKey> result)
+        {
+            UnsafeHashMapData.GetKeyArray(m_Buffer, result);
+        }
+
         /// <summary>
         /// Retreive array of values from the container.
         /// </summary>
@@ -1250,7 +1254,7 @@ namespace Unity.Collections.LowLevel.Unsafe
             return result;
         }
 
-        public void GetValueArray(NativeArray<TValue> result)
+        public void GetValueArray(in NativeArray<TValue> result)
         {
             UnsafeHashMapData.GetValueArray(m_Buffer, result);
         }

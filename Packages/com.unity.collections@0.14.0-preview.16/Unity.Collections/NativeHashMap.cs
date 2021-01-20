@@ -346,6 +346,12 @@ namespace Unity.Collections
             return m_HashMapData.GetKeyArray(allocator);
         }
 
+        public void GetKeyArray(in NativeArray<TKey> result)
+        {
+            CheckRead();
+            m_HashMapData.GetKeyArray(result);
+        }
+
         /// <summary>
         /// Retreive array of values from the container.
         /// </summary>
@@ -358,8 +364,9 @@ namespace Unity.Collections
             return m_HashMapData.GetValueArray(allocator);
         }
 
-        public void GetValueArray(NativeArray<TValue> result)
+        public void GetValueArray(in NativeArray<TValue> result)
         {
+            CheckRead();
             m_HashMapData.GetValueArray(result);
         }
 

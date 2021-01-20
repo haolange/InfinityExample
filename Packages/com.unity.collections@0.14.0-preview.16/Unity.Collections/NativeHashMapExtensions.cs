@@ -1,4 +1,5 @@
 using System;
+using Unity.Burst;
 using Unity.Collections.LowLevel.Unsafe;
 
 namespace Unity.Collections
@@ -16,8 +17,7 @@ namespace Unity.Collections
         /// <typeparam name="T">The type of values in the array.</typeparam>
         /// <param name="array">Array to perform unique operation on.</param>
         /// <returns>Number of unique elements in array.</returns>
-        public static int Unique<T>(this NativeArray<T> array)
-            where T : struct, IEquatable<T>
+        public static int Unique<T>(this NativeArray<T> array) where T : struct, IEquatable<T>
         {
             if (array.Length == 0)
             {

@@ -22,7 +22,7 @@ namespace Unity.Collections.LowLevel.Unsafe
         where TValue : struct
     {
         [NativeDisableUnsafePtrRestriction]
-        internal UnsafeHashMapData* m_Buffer;
+        public UnsafeHashMapData* m_Buffer;
         internal Allocator m_AllocatorLabel;
 
         /// <summary>
@@ -247,6 +247,11 @@ namespace Unity.Collections.LowLevel.Unsafe
             return result;
         }
 
+        public void GetKeyArray(in NativeArray<TKey> result)
+        {
+            UnsafeHashMapData.GetKeyArray(m_Buffer, result);
+        }
+
         /// <summary>
         /// Returns array populated with values.
         /// </summary>
@@ -258,6 +263,11 @@ namespace Unity.Collections.LowLevel.Unsafe
             var result = new NativeArray<TValue>(Count(), allocator, NativeArrayOptions.UninitializedMemory);
             UnsafeHashMapData.GetValueArray(m_Buffer, result);
             return result;
+        }
+
+        public void GetValueArray(in NativeArray<TValue> result)
+        {
+            UnsafeHashMapData.GetValueArray(m_Buffer, result);
         }
 
         /// <summary>

@@ -4,7 +4,7 @@ using UnityEngine;
 using Unity.Collections;
 using InfinityTech.Core.Native;
 using Unity.Collections.LowLevel.Unsafe;
-using InfinityTech.Rendering.MeshDrawPipeline;
+using InfinityTech.Rendering.MeshPipeline;
 
 [BurstCompile]
 public struct TestJob : IJob

@@ -230,7 +230,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: f1fc4fc605ad28e43a451d18950194f2, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: cb1020aa302128842bacbc5fb988bef1, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -756,8 +756,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bUpdateStatic: 0
   bInit: 1
-  RenderScene:
-    name: RenderScene
 --- !u!4 &1259058034
 Transform:
   m_ObjectHideFlags: 0

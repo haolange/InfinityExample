@@ -154,8 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bUpdateStatic: 0
   bInit: 1
-  RenderScene:
-    name: RenderScene
 --- !u!4 &161730441
 Transform:
   m_ObjectHideFlags: 0
@@ -900,7 +898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1262721517
 Transform:
   m_ObjectHideFlags: 0

@@ -290,7 +290,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 548
+  LastMeshInstanceID: 554
   LastGeometryState: 0
   Matrix_LocalToWorld:
     c0:
@@ -334,7 +334,7 @@ MonoBehaviour:
       y: -72.21585
       z: 15.01251
       w: 1
-  MeshBatchCacheID: 3282a697
+  MeshBatchCacheID: 02a7ac97
 --- !u!1 &70498370
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 544
+  LastMeshInstanceID: 550
   LastGeometryState: 1
   Matrix_LocalToWorld:
     c0:
@@ -451,7 +451,7 @@ MonoBehaviour:
       y: -24.566813
       z: 86.11436
       w: 1
-  MeshBatchCacheID: f7688ebf
+  MeshBatchCacheID: bf8d94bf
 --- !u!1 &71435257
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &71435258
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -582,7 +582,7 @@ Transform:
   - {fileID: 621756378}
   - {fileID: 515386047}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &71435262
 MonoBehaviour:
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 544
+  LastMeshInstanceID: 550
   LastGeometryState: 0
   Matrix_LocalToWorld:
     c0:
@@ -1280,7 +1280,7 @@ MonoBehaviour:
       y: 85.334114
       z: 34.01927
       w: 1
-  MeshBatchCacheID: bc93996b
+  MeshBatchCacheID: b4b89f6b
 --- !u!1 &611816572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,12 +1673,12 @@ GameObject:
   - component: {fileID: 787792160}
   - component: {fileID: 787792159}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: DirectionalLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &787792159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1749,7 +1749,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 10
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1944,7 +1944,7 @@ Transform:
   - {fileID: 70189531}
   - {fileID: 1633212591}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &840305928
 GameObject:
@@ -2398,7 +2398,7 @@ MonoBehaviour:
   RenderLayer: 1
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 548
+  LastMeshInstanceID: 554
   LastGeometryState: 0
   Matrix_LocalToWorld:
     c0:
@@ -2442,7 +2442,7 @@ MonoBehaviour:
       y: 8.9919615
       z: 35.850475
       w: 1
-  MeshBatchCacheID: df170b8c
+  MeshBatchCacheID: d73c118c
 --- !u!1 &915485940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2515,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 550
+  LastMeshInstanceID: 556
   LastGeometryState: 1
   Matrix_LocalToWorld:
     c0:
@@ -2559,7 +2559,7 @@ MonoBehaviour:
       y: 26.26501
       z: 20.045223
       w: 1
-  MeshBatchCacheID: b1cda340
+  MeshBatchCacheID: b1f2a940
 --- !u!1 &921869940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,7 +3294,7 @@ MonoBehaviour:
   Materials:
   - {fileID: 2100000, guid: 6f29f76a4da334f40a1a43cdc5375d4f, type: 2}
   LastMaterials:
-  - {fileID: 2100000, guid: ef18fb848ff3aef4c931831c8733fbdc, type: 2}
+  - {fileID: 2100000, guid: 6f29f76a4da334f40a1a43cdc5375d4f, type: 2}
   CastShadow: 0
   ReceiveShadow: 1
   AffectIndirectLighting: 1
@@ -3302,7 +3302,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 544
+  LastMeshInstanceID: 550
   LastGeometryState: 1
   Matrix_LocalToWorld:
     c0:
@@ -3346,7 +3346,7 @@ MonoBehaviour:
       y: 11.286095
       z: 40.634293
       w: 1
-  MeshBatchCacheID: 0db52795
+  MeshBatchCacheID: ddd82d95
 --- !u!1 &1133641471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,7 +4147,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 548
+  LastMeshInstanceID: 554
   LastGeometryState: 1
   Matrix_LocalToWorld:
     c0:
@@ -4191,7 +4191,7 @@ MonoBehaviour:
       y: 40.02395
       z: 52.511864
       w: 1
-  MeshBatchCacheID: 00ea52c2
+  MeshBatchCacheID: e40e59c2
 --- !u!1 &1590897952
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,7 +4455,7 @@ MonoBehaviour:
   RenderLayer: 0
   RenderPriority: 0
   MotionVector: 0
-  LastMeshInstanceID: 544
+  LastMeshInstanceID: 550
   LastGeometryState: 1
   Matrix_LocalToWorld:
     c0:
@@ -4499,7 +4499,7 @@ MonoBehaviour:
       y: 3.584649
       z: -73.645706
       w: 1
-  MeshBatchCacheID: c888c55b
+  MeshBatchCacheID: a4adcb5b
 --- !u!1 &1639129536
 GameObject:
   m_ObjectHideFlags: 0
@@ -6989,7 +6989,7 @@ Transform:
   - {fileID: 5792568264446609040}
   - {fileID: 4791942291689808031}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &5010455351311593290
 Transform:
@@ -7718,7 +7718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &8389181124853528657
 GameObject:
   m_ObjectHideFlags: 0

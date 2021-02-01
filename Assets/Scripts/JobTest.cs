@@ -5,6 +5,7 @@ using Unity.Collections;
 using InfinityTech.Core.Native;
 using Unity.Collections.LowLevel.Unsafe;
 using InfinityTech.Rendering.MeshPipeline;
+using System.Runtime.InteropServices;
 
 [BurstCompile]
 public struct TestJob : IJob
@@ -102,6 +103,22 @@ public unsafe struct PointerStruct
     public float Float;
 }
 
+public class PointerClass
+{
+    public float Float;
+}
+
+public struct PointerClassJob : IJob
+{
+    public GCHandle GCRef;
+
+    public void Execute()
+    {
+        PointerClass PC = (PointerClass)GCRef.Target;
+        PC.Float = 102.5f;
+        Debug.Log(PC.Float);
+    }
+}
 
 public class JobTest : MonoBehaviour
 {
@@ -111,18 +128,19 @@ public class JobTest : MonoBehaviour
 
     void OnEnable()
     {
-        Result = new NativeArray<float>(SortNum, Allocator.Persistent);
+        /*Result = new NativeArray<float>(SortNum, Allocator.Persistent);
 
         for(int i = 0; i < Result.Length; i++)
         {
             Result[i] = Random.value;
-        }
+        }*/
 
+        GCJobTest();
         //NativeHashmapTest();
         //UnsafeStructTest();
         //UnsafeArrayTest();
         //UnsafeClassTest();
-        NativeMultiHashmapTest();
+        //NativeMultiHashmapTest();
         //NativeHashmapToArrayTest();
     }
 
@@ -387,8 +405,20 @@ public class JobTest : MonoBehaviour
         ParallelBuffer.Dispose();
     }
 
+    void GCJobTest()
+    {
+        PointerClass PC = new PointerClass();
+        GCHandle GCRef = GCHandle.Alloc(PC);
+
+        PointerClassJob PCJob = new PointerClassJob();
+        PCJob.GCRef = GCRef;
+        PCJob.Schedule().Complete();
+
+        GCRef.Free();
+    }
+
     void OnDisable()
     {
-        Result.Dispose();
+        //Result.Dispose();
     }
 }

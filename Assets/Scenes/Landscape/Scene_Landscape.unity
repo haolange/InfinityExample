@@ -123,58 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &411231675
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 411231676}
-  - component: {fileID: 411231677}
-  m_Layer: 0
-  m_Name: Dynamic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &411231676
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411231675}
-  m_LocalRotation: {x: -0, y: 0.8385618, z: -0, w: 0.54480654}
-  m_LocalPosition: {x: 11.84, y: 37.12, z: -33.95}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1885017903}
-  - {fileID: 839695697}
-  - {fileID: 676719909}
-  - {fileID: 590378093}
-  - {fileID: 1444414616}
-  - {fileID: 1574571690}
-  - {fileID: 1925281482}
-  - {fileID: 1741496724}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 113.977, z: 0}
---- !u!114 &411231677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411231675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 0
 --- !u!1 &563318383
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +170,7 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
+  m_HeightmapPixelError: 16
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
@@ -247,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563318383}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -512, y: 0, z: -512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -285,294 +233,7447 @@ MonoBehaviour:
   LOD0ScreenSize: 0.5
   LOD0Distribution: 1.25
   LODXDistribution: 2.8
---- !u!1 &590378092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 590378093}
-  - component: {fileID: 590378096}
-  - component: {fileID: 590378095}
-  - component: {fileID: 590378094}
-  m_Layer: 0
-  m_Name: MeshEntity_19896
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &590378093
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590378092}
-  m_LocalRotation: {x: 0.019020952, y: 0.6565366, z: 0.64474356, w: 0.39102903}
-  m_LocalPosition: {x: -27.793999, y: -28, z: -23.128}
-  m_LocalScale: {x: 0.5000001, y: 0.5, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &590378094
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590378092}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f1fc4fc605ad28e43a451d18950194f2, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &590378095
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590378092}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &590378096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590378092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: -0.37581858, y: 0.3675627, z: 0.95713174}
-  speed: 0.019326687
---- !u!1 &676719908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 676719909}
-  - component: {fileID: 676719912}
-  - component: {fileID: 676719911}
-  - component: {fileID: 676719910}
-  m_Layer: 0
-  m_Name: MeshEntity_34824
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &676719909
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676719908}
-  m_LocalRotation: {x: -0.20246136, y: 0.68387336, z: -0.38029712, w: 0.58881307}
-  m_LocalPosition: {x: -29.05, y: -28, z: -23.686}
-  m_LocalScale: {x: 0.50000036, y: 0.5, z: 0.5000001}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &676719910
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676719908}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ef18fb848ff3aef4c931831c8733fbdc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &676719911
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676719908}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &676719912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676719908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: 0.35990652, y: -0.7134321, z: 0.5426221}
-  speed: 1.0982457
---- !u!1 &839695696
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 839695697}
-  - component: {fileID: 839695700}
-  - component: {fileID: 839695699}
-  - component: {fileID: 839695698}
-  m_Layer: 0
-  m_Name: MeshEntity_26268
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &839695697
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839695696}
-  m_LocalRotation: {x: -0.13872075, y: -0.25691935, z: -0.94718206, w: 0.13264711}
-  m_LocalPosition: {x: -27.268, y: -28, z: -24.127}
-  m_LocalScale: {x: 0.5000005, y: 0.50000036, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &839695698
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839695696}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ef18fb848ff3aef4c931831c8733fbdc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &839695699
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839695696}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &839695700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839695696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: -0.8539171, y: -0.26632378, z: 1.049764}
-  speed: -0.3468566
+  NumQuad: 64
+  NumSection: 16
+  UnityTerrain: {fileID: 563318385}
+  UnityTerrainData: {fileID: 15600000, guid: c7d7aab7cb9ef2a4a9158f17410f8535, type: 2}
+  TerrainSector:
+    MaxLODs: 07000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000
+    BoundBox:
+      center:
+        x: 0
+        y: 128.5
+        z: 0
+      extents:
+        x: 512
+        y: 128.5
+        z: 512
+    Sections:
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 87.92549
+          z: -480
+        extents:
+          x: 32
+          y: 1.4352952
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 82.2
+          z: -416
+        extents:
+          x: 32
+          y: 4.6980405
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 70.4902
+          z: -352
+        extents:
+          x: 32
+          y: 8.713727
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 50.311764
+          z: -288
+        extents:
+          x: 32
+          y: 14.852942
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 32.680393
+          z: -224
+        extents:
+          x: 32
+          y: 13.378432
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 17.109804
+          z: -160
+        extents:
+          x: 32
+          y: 5.3686275
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 11.305882
+          z: -96
+        extents:
+          x: 32
+          y: 2.3098042
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 9.992157
+          z: -32
+        extents:
+          x: 32
+          y: 1.0431372
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -480
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 14.149019
+          z: 32
+        extents:
+          x: 32
+          y: 4.3215685
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 23.964706
+          z: 96
+        extents:
+          x: 32
+          y: 9.392158
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 39.95098
+          z: 160
+        extents:
+          x: 32
+          y: 12.641177
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 56.192158
+          z: 224
+        extents:
+          x: 32
+          y: 5.3490186
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 62.964706
+          z: 288
+        extents:
+          x: 32
+          y: 1.8078424
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 64.270584
+          z: 352
+        extents:
+          x: 32
+          y: 0.5098038
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 62.894115
+          z: 416
+        extents:
+          x: 32
+          y: 0.9686261
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -480
+          y: 61.70196
+          z: 480
+        extents:
+          x: 32
+          y: 0.27843094
+          z: 32
+      PivotPosition:
+        x: -512
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -480
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 88.76078
+          z: -480
+        extents:
+          x: 32
+          y: 2.3411753
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 81.89412
+          z: -416
+        extents:
+          x: 32
+          y: 5.2549024
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 67.513725
+          z: -352
+        extents:
+          x: 32
+          y: 10.262746
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 51.911766
+          z: -288
+        extents:
+          x: 32
+          y: 9.57451
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 35.82549
+          z: -224
+        extents:
+          x: 32
+          y: 13.088236
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 19.588236
+          z: -160
+        extents:
+          x: 32
+          y: 10.364706
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 10.082353
+          z: -96
+        extents:
+          x: 32
+          y: 1.6039215
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 14.603921
+          z: -32
+        extents:
+          x: 32
+          y: 5.6549015
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -416
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 21
+          z: 32
+        extents:
+          x: 32
+          y: 9.3450985
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 30.97451
+          z: 96
+        extents:
+          x: 32
+          y: 12.213725
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 42.32353
+          z: 160
+        extents:
+          x: 32
+          y: 11.437255
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 56.505882
+          z: 224
+        extents:
+          x: 32
+          y: 5.62353
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 62.768623
+          z: 288
+        extents:
+          x: 32
+          y: 2.17647
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 64.28235
+          z: 352
+        extents:
+          x: 32
+          y: 0.9215699
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 63.262745
+          z: 416
+        extents:
+          x: 32
+          y: 1.3294126
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -416
+          y: 61.88235
+          z: 480
+        extents:
+          x: 32
+          y: 0.32549098
+          z: 32
+      PivotPosition:
+        x: -448
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -416
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 91.27451
+          z: -480
+        extents:
+          x: 32
+          y: 4.5254903
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 84.27451
+          z: -416
+        extents:
+          x: 32
+          y: 7.360787
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 66.82353
+          z: -352
+        extents:
+          x: 32
+          y: 14.57647
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 46.15098
+          z: -288
+        extents:
+          x: 32
+          y: 12.645097
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 27.729412
+          z: -224
+        extents:
+          x: 32
+          y: 14.341177
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 14.207843
+          z: -160
+        extents:
+          x: 32
+          y: 9.282352
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 6.329412
+          z: -96
+        extents:
+          x: 32
+          y: 2.9568627
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 15.243137
+          z: -32
+        extents:
+          x: 32
+          y: 11.188235
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -352
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 30.329412
+          z: 32
+        extents:
+          x: 32
+          y: 11.796079
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 39.32745
+          z: 96
+        extents:
+          x: 32
+          y: 8.958823
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 49.435295
+          z: 160
+        extents:
+          x: 32
+          y: 5.6274495
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 56.341175
+          z: 224
+        extents:
+          x: 32
+          y: 4.329413
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 59.188236
+          z: 288
+        extents:
+          x: 32
+          y: 4.266667
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 62.02745
+          z: 352
+        extents:
+          x: 32
+          y: 2.0705872
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 62.372547
+          z: 416
+        extents:
+          x: 32
+          y: 1.7019597
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -352
+          y: 62.094116
+          z: 480
+        extents:
+          x: 32
+          y: 0.31764796
+          z: 32
+      PivotPosition:
+        x: -384
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -352
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 95.458824
+          z: -480
+        extents:
+          x: 32
+          y: 4.0745087
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 84.18432
+          z: -416
+        extents:
+          x: 32
+          y: 11.490197
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 64.58431
+          z: -352
+        extents:
+          x: 32
+          y: 13.960782
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 40.95098
+          z: -288
+        extents:
+          x: 32
+          y: 11.147059
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 22.094118
+          z: -224
+        extents:
+          x: 32
+          y: 10.815686
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 7.2901964
+          z: -160
+        extents:
+          x: 32
+          y: 5.729412
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 2.5137255
+          z: -96
+        extents:
+          x: 32
+          y: 2.2156863
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 9.745098
+          z: -32
+        extents:
+          x: 32
+          y: 9.14902
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -288
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 24.27843
+          z: 32
+        extents:
+          x: 32
+          y: 17.933332
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 37.288235
+          z: 96
+        extents:
+          x: 32
+          y: 10.998038
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 43.652943
+          z: 160
+        extents:
+          x: 32
+          y: 8.2176485
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 47.237255
+          z: 224
+        extents:
+          x: 32
+          y: 7.503922
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 53.156864
+          z: 288
+        extents:
+          x: 32
+          y: 7.090195
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 57.792156
+          z: 352
+        extents:
+          x: 32
+          y: 2.8235304
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 60.043137
+          z: 416
+        extents:
+          x: 32
+          y: 1.6941186
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -288
+          y: 60.99608
+          z: 480
+        extents:
+          x: 32
+          y: 0.984314
+          z: 32
+      PivotPosition:
+        x: -320
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -288
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 100.74117
+          z: -480
+        extents:
+          x: 32
+          y: 4.8156857
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 88.039215
+          z: -416
+        extents:
+          x: 32
+          y: 14.058824
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 72.17647
+          z: -352
+        extents:
+          x: 32
+          y: 21.160786
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 45.758823
+          z: -288
+        extents:
+          x: 32
+          y: 14.72353
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 25.494118
+          z: -224
+        extents:
+          x: 32
+          y: 13.235293
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 10.411765
+          z: -160
+        extents:
+          x: 32
+          y: 9.392157
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 1.1058824
+          z: -96
+        extents:
+          x: 32
+          y: 1.1058824
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 3.0470588
+          z: -32
+        extents:
+          x: 32
+          y: 2.9529412
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -224
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 14.772549
+          z: 32
+        extents:
+          x: 32
+          y: 11.141176
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 26.309803
+          z: 96
+        extents:
+          x: 32
+          y: 8.952941
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 32.572548
+          z: 160
+        extents:
+          x: 32
+          y: 6.90196
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 39.660786
+          z: 224
+        extents:
+          x: 32
+          y: 6.0058827
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 48.284313
+          z: 288
+        extents:
+          x: 32
+          y: 6.543137
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 55.639214
+          z: 352
+        extents:
+          x: 32
+          y: 2.6627448
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 58.27451
+          z: 416
+        extents:
+          x: 32
+          y: 1.6901971
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -224
+          y: 59.635292
+          z: 480
+        extents:
+          x: 32
+          y: 0.9647046
+          z: 32
+      PivotPosition:
+        x: -256
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -224
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 116.30784
+          z: -480
+        extents:
+          x: 32
+          y: 14.17059
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 116.71177
+          z: -416
+        extents:
+          x: 32
+          y: 22.425493
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 89.666664
+          z: -352
+        extents:
+          x: 32
+          y: 28.494116
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 63.4098
+          z: -288
+        extents:
+          x: 32
+          y: 24.092155
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 36.519608
+          z: -224
+        extents:
+          x: 32
+          y: 18.605883
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 12.968628
+          z: -160
+        extents:
+          x: 32
+          y: 10.584314
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 5.3843136
+          z: -96
+        extents:
+          x: 32
+          y: 4.741176
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 5.3411765
+          z: -32
+        extents:
+          x: 32
+          y: 4.109804
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -160
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 11.568627
+          z: 32
+        extents:
+          x: 32
+          y: 7.6549015
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 22.82353
+          z: 96
+        extents:
+          x: 32
+          y: 6.384314
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 34.652943
+          z: 160
+        extents:
+          x: 32
+          y: 9.303922
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 42.492157
+          z: 224
+        extents:
+          x: 32
+          y: 8.8294115
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 48.507843
+          z: 288
+        extents:
+          x: 32
+          y: 6.4372544
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 55.439217
+          z: 352
+        extents:
+          x: 32
+          y: 2.509804
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 58.141174
+          z: 416
+        extents:
+          x: 32
+          y: 1.8000013
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -160
+          y: 59.572548
+          z: 480
+        extents:
+          x: 32
+          y: 0.90980345
+          z: 32
+      PivotPosition:
+        x: -192
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -160
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 147.03333
+          z: -480
+        extents:
+          x: 32
+          y: 22.041174
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 144.26079
+          z: -416
+        extents:
+          x: 32
+          y: 24.405882
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 116.9902
+          z: -352
+        extents:
+          x: 32
+          y: 28.27255
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 86.5451
+          z: -288
+        extents:
+          x: 32
+          y: 30.619606
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 49.47255
+          z: -224
+        extents:
+          x: 32
+          y: 25.40196
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 24.215687
+          z: -160
+        extents:
+          x: 32
+          y: 13.682353
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 14.992157
+          z: -96
+        extents:
+          x: 32
+          y: 9.729412
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 17.662745
+          z: -32
+        extents:
+          x: 32
+          y: 12.376471
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -96
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 28.198038
+          z: 32
+        extents:
+          x: 32
+          y: 18.268627
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 36.876472
+          z: 96
+        extents:
+          x: 32
+          y: 17.34706
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 45.94314
+          z: 160
+        extents:
+          x: 32
+          y: 16.445099
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 56.52353
+          z: 224
+        extents:
+          x: 32
+          y: 14.311765
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 59.968624
+          z: 288
+        extents:
+          x: 32
+          y: 8.458823
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 60.243134
+          z: 352
+        extents:
+          x: 32
+          y: 5.188235
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 63.35294
+          z: 416
+        extents:
+          x: 32
+          y: 5.2627473
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -96
+          y: 68.28236
+          z: 480
+        extents:
+          x: 32
+          y: 8.490197
+          z: 32
+      PivotPosition:
+        x: -128
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -96
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 177.81961
+          z: -480
+        extents:
+          x: 32
+          y: 13.647058
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -512
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 166.13333
+          z: -416
+        extents:
+          x: 32
+          y: 20.13334
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -448
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 143.3353
+          z: -352
+        extents:
+          x: 32
+          y: 25.778429
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -384
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 102.590195
+          z: -288
+        extents:
+          x: 32
+          y: 33.63726
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -320
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 67.3353
+          z: -224
+        extents:
+          x: 32
+          y: 28.856865
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -256
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 40.045097
+          z: -160
+        extents:
+          x: 32
+          y: 14.994117
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -192
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 41.864708
+          z: -96
+        extents:
+          x: 32
+          y: 19.064707
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -128
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 52.088234
+          z: -32
+        extents:
+          x: 32
+          y: 28.958822
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: -64
+      CenterPosition:
+        x: -32
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 75.23726
+          z: 32
+        extents:
+          x: 32
+          y: 46.5
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 0
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 89.460785
+          z: 96
+        extents:
+          x: 32
+          y: 40.71177
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 64
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 86.145096
+          z: 160
+        extents:
+          x: 32
+          y: 30.729412
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 128
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 89.95686
+          z: 224
+        extents:
+          x: 32
+          y: 27.560783
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 192
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 91.96863
+          z: 288
+        extents:
+          x: 32
+          y: 29.156862
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 256
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 88.56863
+          z: 352
+        extents:
+          x: 32
+          y: 25.623528
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 320
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 94.81961
+          z: 416
+        extents:
+          x: 32
+          y: 29.011766
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 384
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: -32
+          y: 88.254906
+          z: 480
+        extents:
+          x: 32
+          y: 20.094118
+          z: 32
+      PivotPosition:
+        x: -64
+        y: 0
+        z: 448
+      CenterPosition:
+        x: -32
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 196.36078
+          z: -480
+        extents:
+          x: 32
+          y: 10.439218
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 185.70197
+          z: -416
+        extents:
+          x: 32
+          y: 16.86275
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 159.51765
+          z: -352
+        extents:
+          x: 32
+          y: 25.180391
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 121.96274
+          z: -288
+        extents:
+          x: 32
+          y: 31.990194
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 79.17255
+          z: -224
+        extents:
+          x: 32
+          y: 23.72549
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 60.741177
+          z: -160
+        extents:
+          x: 32
+          y: 13.403922
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 71.6549
+          z: -96
+        extents:
+          x: 32
+          y: 24.45098
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 104.17843
+          z: -32
+        extents:
+          x: 32
+          y: 45.88431
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 32
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 133.08432
+          z: 32
+        extents:
+          x: 32
+          y: 50.335297
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 153.84119
+          z: 96
+        extents:
+          x: 32
+          y: 35.43726
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 145.58235
+          z: 160
+        extents:
+          x: 32
+          y: 34.919613
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 139.78235
+          z: 224
+        extents:
+          x: 32
+          y: 31.111765
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 140.02158
+          z: 288
+        extents:
+          x: 32
+          y: 33.43726
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 140.17451
+          z: 352
+        extents:
+          x: 32
+          y: 33.025497
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 138.59412
+          z: 416
+        extents:
+          x: 32
+          y: 29.186274
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 32
+          y: 128.49216
+          z: 480
+        extents:
+          x: 32
+          y: 24.268625
+          z: 32
+      PivotPosition:
+        x: 0
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 32
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 207.00392
+          z: -480
+        extents:
+          x: 32
+          y: 5.2862706
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 198.0196
+          z: -416
+        extents:
+          x: 32
+          y: 12.874513
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 180.11765
+          z: -352
+        extents:
+          x: 32
+          y: 24.894114
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 146.18628
+          z: -288
+        extents:
+          x: 32
+          y: 41.547062
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 115.2098
+          z: -224
+        extents:
+          x: 32
+          y: 40.358826
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 96.91765
+          z: -160
+        extents:
+          x: 32
+          y: 27.12549
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 113.1
+          z: -96
+        extents:
+          x: 32
+          y: 40.90784
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 141.07254
+          z: -32
+        extents:
+          x: 32
+          y: 43.13137
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 96
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 177.59607
+          z: 32
+        extents:
+          x: 32
+          y: 28.584314
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 195.88235
+          z: 96
+        extents:
+          x: 32
+          y: 14.54902
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 187.83138
+          z: 160
+        extents:
+          x: 32
+          y: 20.552942
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 181.8353
+          z: 224
+        extents:
+          x: 32
+          y: 14.352937
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 178.7255
+          z: 288
+        extents:
+          x: 32
+          y: 8.952943
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 176.18431
+          z: 352
+        extents:
+          x: 32
+          y: 8.317651
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 163.53334
+          z: 416
+        extents:
+          x: 32
+          y: 10.403916
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 96
+          y: 157.90588
+          z: 480
+        extents:
+          x: 32
+          y: 9.694116
+          z: 32
+      PivotPosition:
+        x: 64
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 96
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 213.76274
+          z: -480
+        extents:
+          x: 32
+          y: 2.8294146
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 213.56274
+          z: -416
+        extents:
+          x: 32
+          y: 8.017647
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 206.85294
+          z: -352
+        extents:
+          x: 32
+          y: 18.076471
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 189.47255
+          z: -288
+        extents:
+          x: 32
+          y: 32.201958
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 165.12744
+          z: -224
+        extents:
+          x: 32
+          y: 40.10392
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 142.79803
+          z: -160
+        extents:
+          x: 32
+          y: 32.252937
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 147.37451
+          z: -96
+        extents:
+          x: 32
+          y: 31.990198
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 179.40393
+          z: -32
+        extents:
+          x: 32
+          y: 24.91765
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 160
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 199.06862
+          z: 32
+        extents:
+          x: 32
+          y: 15.07647
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 210.26079
+          z: 96
+        extents:
+          x: 32
+          y: 3.860779
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 203.5255
+          z: 160
+        extents:
+          x: 32
+          y: 7.8784337
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 195.00784
+          z: 224
+        extents:
+          x: 32
+          y: 7.6509786
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 189.66667
+          z: 288
+        extents:
+          x: 32
+          y: 5.949021
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 181.4902
+          z: 352
+        extents:
+          x: 32
+          y: 7.1921544
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 176.93333
+          z: 416
+        extents:
+          x: 32
+          y: 9.058824
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 160
+          y: 175.38431
+          z: 480
+        extents:
+          x: 32
+          y: 9.447061
+          z: 32
+      PivotPosition:
+        x: 128
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 160
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 227.16078
+          z: -480
+        extents:
+          x: 32
+          y: 11.431375
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 227.66273
+          z: -416
+        extents:
+          x: 32
+          y: 10.521569
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 232.72942
+          z: -352
+        extents:
+          x: 32
+          y: 10.850984
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 219.9
+          z: -288
+        extents:
+          x: 32
+          y: 16.872553
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 190.70589
+          z: -224
+        extents:
+          x: 32
+          y: 15.294114
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 179.29411
+          z: -160
+        extents:
+          x: 32
+          y: 11.827447
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 178.71765
+          z: -96
+        extents:
+          x: 32
+          y: 11.533334
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 192.19215
+          z: -32
+        extents:
+          x: 32
+          y: 12.145104
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 224
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 204.42941
+          z: 32
+        extents:
+          x: 32
+          y: 9.707841
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 205.3902
+          z: 96
+        extents:
+          x: 32
+          y: 8.723527
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 201.85883
+          z: 160
+        extents:
+          x: 32
+          y: 5.6313787
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 201.07843
+          z: 224
+        extents:
+          x: 32
+          y: 5.1254888
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 199.61961
+          z: 288
+        extents:
+          x: 32
+          y: 10.709809
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 196.70195
+          z: 352
+        extents:
+          x: 32
+          y: 10.568627
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 198.08627
+          z: 416
+        extents:
+          x: 32
+          y: 13.403924
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 224
+          y: 197.7255
+          z: 480
+        extents:
+          x: 32
+          y: 13.411759
+          z: 32
+      PivotPosition:
+        x: 192
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 224
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 242.90196
+          z: -480
+        extents:
+          x: 32
+          y: 7.235291
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 241.82744
+          z: -416
+        extents:
+          x: 32
+          y: 7.486275
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 243.82745
+          z: -352
+        extents:
+          x: 32
+          y: 7.0941167
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 226.97058
+          z: -288
+        extents:
+          x: 32
+          y: 20.02157
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 206.03334
+          z: -224
+        extents:
+          x: 32
+          y: 14.605882
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 190.70195
+          z: -160
+        extents:
+          x: 32
+          y: 3.501961
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 190.40001
+          z: -96
+        extents:
+          x: 32
+          y: 3.0431368
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 193.80785
+          z: -32
+        extents:
+          x: 32
+          y: 3.4313662
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 288
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 199.05098
+          z: 32
+        extents:
+          x: 32
+          y: 5.678429
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 198.67844
+          z: 96
+        extents:
+          x: 32
+          y: 5.274506
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 195.87843
+          z: 160
+        extents:
+          x: 32
+          y: 1.4705888
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 203.02745
+          z: 224
+        extents:
+          x: 32
+          y: 6.392159
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 214.18236
+          z: 288
+        extents:
+          x: 32
+          y: 9.398042
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 215.59804
+          z: 352
+        extents:
+          x: 32
+          y: 11.566667
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 217.39412
+          z: 416
+        extents:
+          x: 32
+          y: 11.080392
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 288
+          y: 217.27255
+          z: 480
+        extents:
+          x: 32
+          y: 11.311769
+          z: 32
+      PivotPosition:
+        x: 256
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 288
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 252.53333
+          z: -480
+        extents:
+          x: 32
+          y: 3.7137225
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 251.4549
+          z: -416
+        extents:
+          x: 32
+          y: 4.839211
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 248.40392
+          z: -352
+        extents:
+          x: 32
+          y: 7.098046
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 228.55882
+          z: -288
+        extents:
+          x: 32
+          y: 16.786272
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 207.0098
+          z: -224
+        extents:
+          x: 32
+          y: 12.86863
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 195.16862
+          z: -160
+        extents:
+          x: 32
+          y: 3.278435
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 194.77647
+          z: -96
+        extents:
+          x: 32
+          y: 2.9411776
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 197.54901
+          z: -32
+        extents:
+          x: 32
+          y: 3.6117632
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 352
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 195.2549
+          z: 32
+        extents:
+          x: 32
+          y: 2.062752
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 195.33333
+          z: 96
+        extents:
+          x: 32
+          y: 2.1333392
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 202.4196
+          z: 160
+        extents:
+          x: 32
+          y: 7.752938
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 206.27255
+          z: 224
+        extents:
+          x: 32
+          y: 8.829408
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 216.23332
+          z: 288
+        extents:
+          x: 32
+          y: 7.1117635
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 221.55685
+          z: 352
+        extents:
+          x: 32
+          y: 5.4980397
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 223.25882
+          z: 416
+        extents:
+          x: 32
+          y: 5.207848
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 352
+          y: 223.29019
+          z: 480
+        extents:
+          x: 32
+          y: 5.3019643
+          z: 32
+      PivotPosition:
+        x: 320
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 352
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 252.12157
+          z: -480
+        extents:
+          x: 32
+          y: 4.3137207
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 250.53725
+          z: -416
+        extents:
+          x: 32
+          y: 3.9137194
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 247.40784
+          z: -352
+        extents:
+          x: 32
+          y: 6.996079
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 226.5
+          z: -288
+        extents:
+          x: 32
+          y: 16.037254
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 204.56078
+          z: -224
+        extents:
+          x: 32
+          y: 8.380395
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 195.10196
+          z: -160
+        extents:
+          x: 32
+          y: 2.0980377
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 193.94902
+          z: -96
+        extents:
+          x: 32
+          y: 0.9372559
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 195.56863
+          z: -32
+        extents:
+          x: 32
+          y: 2.0549011
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 416
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 198.16078
+          z: 32
+        extents:
+          x: 32
+          y: 4.16079
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 201.05882
+          z: 96
+        extents:
+          x: 32
+          y: 6.8235326
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 205.99019
+          z: 160
+        extents:
+          x: 32
+          y: 8.272545
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 212.3
+          z: 224
+        extents:
+          x: 32
+          y: 3.374512
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 212.41765
+          z: 288
+        extents:
+          x: 32
+          y: 3.350983
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 215.12352
+          z: 352
+        extents:
+          x: 32
+          y: 5.978432
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 215.68823
+          z: 416
+        extents:
+          x: 32
+          y: 5.6254888
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 416
+          y: 215.2451
+          z: 480
+        extents:
+          x: 32
+          y: 4.735291
+          z: 32
+      PivotPosition:
+        x: 384
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 416
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 253.91765
+          z: -480
+        extents:
+          x: 32
+          y: 3.082352
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -512
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 253.77255
+          z: -416
+        extents:
+          x: 32
+          y: 3.2274477
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -448
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 248.35686
+          z: -352
+        extents:
+          x: 32
+          y: 5.4588246
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -384
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 229.68039
+          z: -288
+        extents:
+          x: 32
+          y: 16.307838
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -320
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 208.30785
+          z: -224
+        extents:
+          x: 32
+          y: 11.672547
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -256
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 195.54118
+          z: -160
+        extents:
+          x: 32
+          y: 1.8705903
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -192
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 193.98824
+          z: -96
+        extents:
+          x: 32
+          y: 0.7411805
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -128
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 197.54903
+          z: -32
+        extents:
+          x: 32
+          y: 3.9960787
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: -64
+      CenterPosition:
+        x: 480
+        y: 0
+        z: -32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 200.4549
+          z: 32
+        extents:
+          x: 32
+          y: 2.494118
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 0
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 32
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 205.74902
+          z: 96
+        extents:
+          x: 32
+          y: 3.3254855
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 64
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 96
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 210.16078
+          z: 160
+        extents:
+          x: 32
+          y: 2.4274523
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 128
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 160
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 209.12157
+          z: 224
+        extents:
+          x: 32
+          y: 1.92157
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 192
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 224
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 208.35686
+          z: 288
+        extents:
+          x: 32
+          y: 1.2431413
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 256
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 288
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 209.07451
+          z: 352
+        extents:
+          x: 32
+          y: 1.5843126
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 320
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 352
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 209.5098
+          z: 416
+        extents:
+          x: 32
+          y: 1.5098039
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 384
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 416
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    - NumQuad: 0
+      LODIndex: 0
+      FractionLOD: 0
+      BoundBox:
+        center:
+          x: 480
+          y: 209.87451
+          z: 480
+        extents:
+          x: 32
+          y: 1.231369
+          z: 32
+      PivotPosition:
+        x: 448
+        y: 0
+        z: 448
+      CenterPosition:
+        x: 480
+        y: 0
+        z: 480
+      TopSectionIndex: 0
+      LeftSectionIndex: 0
+      RightSectionIndex: 0
+      ButtomSectionIndex: 0
+    LODSettings:
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
+    - LastLODIndex: 0
+      LOD0ScreenSizeSquared: 0
+      LOD1ScreenSizeSquared: 0
+      LODOnePlusDistributionScalarSquared: 0
+      LastLODScreenSizeSquared: 0
 --- !u!1 &998063063
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,198 +7871,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1444414615
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1444414616}
-  - component: {fileID: 1444414619}
-  - component: {fileID: 1444414618}
-  - component: {fileID: 1444414617}
-  m_Layer: 0
-  m_Name: MeshEntity_33225
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1444414616
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444414615}
-  m_LocalRotation: {x: 0.493257, y: 0.4461205, z: -0.00010468822, w: 0.7467758}
-  m_LocalPosition: {x: -28.728998, y: -28, z: -22.422}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5000001}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1444414617
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444414615}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ef18fb848ff3aef4c931831c8733fbdc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1444414618
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444414615}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1444414619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444414615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: 0.20219505, y: -0.5806072, z: 0.12667009}
-  speed: -1.0161971
---- !u!1 &1574571689
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1574571690}
-  - component: {fileID: 1574571693}
-  - component: {fileID: 1574571692}
-  - component: {fileID: 1574571691}
-  m_Layer: 0
-  m_Name: MeshEntity_27656
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1574571690
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574571689}
-  m_LocalRotation: {x: -0.040956683, y: 0.85806715, z: 0.20329322, w: 0.46980336}
-  m_LocalPosition: {x: -27.744999, y: -28, z: -21.786}
-  m_LocalScale: {x: 0.49999994, y: 0.49999997, z: 0.50000006}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1574571691
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574571689}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ef18fb848ff3aef4c931831c8733fbdc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1574571692
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574571689}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1574571693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574571689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: -0.7222545, y: 0.3759831, z: -0.15694782}
-  speed: 0.7958928
 --- !u!1 &1730975640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,291 +7981,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 13.046, y: 38.004, z: 0.001}
---- !u!1 &1741496723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1741496724}
-  - component: {fileID: 1741496727}
-  - component: {fileID: 1741496726}
-  - component: {fileID: 1741496725}
-  m_Layer: 0
-  m_Name: MeshEntity_24587
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1741496724
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741496723}
-  m_LocalRotation: {x: 0.771702, y: 0.553191, z: -0.29608735, w: -0.10386611}
-  m_LocalPosition: {x: -27.704998, y: -28, z: -20.29}
-  m_LocalScale: {x: 0.5000002, y: 0.50000036, z: 0.50000036}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1741496725
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741496723}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f1fc4fc605ad28e43a451d18950194f2, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1741496726
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741496723}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1741496727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741496723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: 0.029386997, y: 0.3149569, z: -0.22488582}
-  speed: 0.6884483
---- !u!1 &1885017902
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1885017903}
-  - component: {fileID: 1885017906}
-  - component: {fileID: 1885017905}
-  - component: {fileID: 1885017904}
-  m_Layer: 0
-  m_Name: MeshEntity_19129
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1885017903
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885017902}
-  m_LocalRotation: {x: -0.13601844, y: 0.39516526, z: 0.4164121, w: 0.8074307}
-  m_LocalPosition: {x: -28.365, y: -28, z: -24.824}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.49999994}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1885017904
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885017902}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f1fc4fc605ad28e43a451d18950194f2, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1885017905
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885017902}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1885017906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885017902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: -0.5170678, y: 0.20469889, z: 0.84864414}
-  speed: 0.7943746
---- !u!1 &1925281481
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1925281482}
-  - component: {fileID: 1925281485}
-  - component: {fileID: 1925281484}
-  - component: {fileID: 1925281483}
-  m_Layer: 0
-  m_Name: MeshEntity_22580
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1925281482
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925281481}
-  m_LocalRotation: {x: -0.5871207, y: 0.36462855, z: 0.6635453, w: 0.28643146}
-  m_LocalPosition: {x: -28.750998, y: -28, z: -20.949}
-  m_LocalScale: {x: 0.50000024, y: 0.50000036, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 411231676}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1925281483
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925281481}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f1fc4fc605ad28e43a451d18950194f2, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1925281484
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925281481}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1925281485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925281481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1daff6cc05cc8424885dfd3c86616279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axil: {x: 0.32127425, y: 0.2445383, z: 0.27203345}
-  speed: -1.0727955

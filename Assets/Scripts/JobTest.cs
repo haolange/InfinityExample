@@ -6,6 +6,7 @@ using InfinityTech.Core.Native;
 using Unity.Collections.LowLevel.Unsafe;
 using InfinityTech.Rendering.MeshPipeline;
 using System.Runtime.InteropServices;
+using System.Threading;
 
 [BurstCompile]
 public struct TestJob : IJob
@@ -120,7 +121,20 @@ public struct PointerClassJob : IJob
     }
 }
 
-public class JobTest : MonoBehaviour
+[BurstCompile]
+public unsafe struct AtomicJob : IJob
+{
+    [NativeDisableUnsafePtrRestriction]
+    public int* Count;
+    //public NativeArray<float> Result;
+
+    public void Execute()
+    {
+        Interlocked.Increment(ref Count[0]);
+    }
+}
+
+public unsafe class JobTest : MonoBehaviour
 {
     public int SortNum = 1024;
     public bool ParallelSort = true;
@@ -135,13 +149,24 @@ public class JobTest : MonoBehaviour
             Result[i] = Random.value;
         }*/
 
-        GCJobTest();
+        //GCJobTest();
         //NativeHashmapTest();
         //UnsafeStructTest();
         //UnsafeArrayTest();
         //UnsafeClassTest();
         //NativeMultiHashmapTest();
         //NativeHashmapToArrayTest();
+
+        int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int), 64, Allocator.TempJob);
+        MyData[0] = 1;
+
+        AtomicJob Atomic = new AtomicJob();
+        Atomic.Count = MyData;
+        Atomic.Run();
+
+        print(MyData[0]);
+        UnsafeUtility.Free(Atomic.Count, Allocator.Temp);
+        //NativeArray<int> Data = new NativeArray<int>(1, Allocator.TempJob);
     }
 
     void Update()

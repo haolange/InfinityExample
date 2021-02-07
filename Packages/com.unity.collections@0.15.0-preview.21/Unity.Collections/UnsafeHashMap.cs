@@ -315,8 +315,7 @@ namespace Unity.Collections.LowLevel.Unsafe
         }
 
         [BurstCompatible(GenericTypeArguments = new [] { typeof(int) })]
-        internal static void GetKeyArray<TKey>(UnsafeHashMapData* data, NativeArray<TKey> result)
-            where TKey : struct
+        internal static void GetKeyArray<TKey>(UnsafeHashMapData* data, NativeArray<TKey> result) where TKey : struct
         {
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;
@@ -334,16 +333,12 @@ namespace Unity.Collections.LowLevel.Unsafe
         }
 
         [BurstCompatible(GenericTypeArguments = new [] { typeof(int) })]
-        internal static void GetValueArray<TValue>(UnsafeHashMapData* data, NativeArray<TValue> result)
-            where TValue : struct
+        internal static void GetValueArray<TValue>(UnsafeHashMapData* data, NativeArray<TValue> result) where TValue : struct
         {
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;
 
-            for (int i = 0, count = 0, max = result.Length, capacityMask = data->bucketCapacityMask
-                ; i <= capacityMask && count < max
-                ; ++i
-                )
+            for (int i = 0, count = 0, max = result.Length, capacityMask = data->bucketCapacityMask; i <= capacityMask && count < max; ++i)
             {
                 int bucket = bucketArray[i];
 
@@ -356,9 +351,7 @@ namespace Unity.Collections.LowLevel.Unsafe
         }
 
         [BurstCompatible(GenericTypeArguments = new [] { typeof(int), typeof(int) })]
-        internal static void GetKeyValueArrays<TKey, TValue>(UnsafeHashMapData* data, NativeKeyValueArrays<TKey, TValue> result)
-            where TKey : struct
-            where TValue : struct
+        internal static void GetKeyValueArrays<TKey, TValue>(UnsafeHashMapData* data, NativeKeyValueArrays<TKey, TValue> result) where TKey : struct where TValue : struct
         {
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;

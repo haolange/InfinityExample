@@ -320,7 +320,7 @@ namespace Unity.Collections.LowLevel.Unsafe
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;
 
-            for (int i = 0, count = 0, max = result.Length; i <= data->bucketCapacityMask && count < max; ++i)
+            for (int i = 0, count = 0; i <= data->bucketCapacityMask && count < result.Length; ++i)
             {
                 int bucket = bucketArray[i];
 
@@ -338,7 +338,7 @@ namespace Unity.Collections.LowLevel.Unsafe
             var bucketArray = (int*)data->buckets;
             var bucketNext = (int*)data->next;
 
-            for (int i = 0, count = 0, max = result.Length, capacityMask = data->bucketCapacityMask; i <= capacityMask && count < max; ++i)
+            for (int i = 0, count = 0, capacityMask = data->bucketCapacityMask; i <= capacityMask && count < result.Length; ++i)
             {
                 int bucket = bucketArray[i];
 

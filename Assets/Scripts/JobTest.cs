@@ -165,7 +165,7 @@ public unsafe class JobTest : MonoBehaviour
         Atomic.Run();
 
         print(MyData[0]);
-        UnsafeUtility.Free(Atomic.Count, Allocator.Temp);
+        UnsafeUtility.Free(MyData, Allocator.TempJob);
         //NativeArray<int> Data = new NativeArray<int>(1, Allocator.TempJob);
     }
 

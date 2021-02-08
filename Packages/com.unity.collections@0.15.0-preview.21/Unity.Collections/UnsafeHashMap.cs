@@ -332,7 +332,7 @@ namespace Unity.Collections.LowLevel.Unsafe
             }
         }
 
-        /*[BurstCompatible(GenericTypeArguments = new [] { typeof(int) })]
+        [BurstCompatible(GenericTypeArguments = new [] { typeof(int) })]
         internal static void GetValueArray<TValue>(UnsafeHashMapData* data, NativeArray<TValue> result) where TValue : struct
         {
             var bucketArray = (int*)data->buckets;
@@ -348,9 +348,9 @@ namespace Unity.Collections.LowLevel.Unsafe
                     bucket = bucketNext[bucket];
                 }
             }
-        }*/
+        }
 
-        [BurstCompatible(GenericTypeArguments = new[] { typeof(int) })]
+        /*[BurstCompatible(GenericTypeArguments = new[] { typeof(int) })]
         internal static void GetValueArray<TValue>(UnsafeHashMapData* data, NativeArray<TValue> result) where TValue : struct
         {
             var bucketArray = (int*)data->buckets;
@@ -370,7 +370,7 @@ namespace Unity.Collections.LowLevel.Unsafe
                     }
                 }
             }
-        }
+        }*/
 
         [BurstCompatible(GenericTypeArguments = new [] { typeof(int), typeof(int) })]
         internal static void GetKeyValueArrays<TKey, TValue>(UnsafeHashMapData* data, NativeKeyValueArrays<TKey, TValue> result) where TKey : struct where TValue : struct

@@ -233,8 +233,8 @@ MonoBehaviour:
   LOD0ScreenSize: 0.5
   LOD0Distribution: 1.25
   LODXDistribution: 2.8
-  NumQuad: 64
   NumSection: 16
+  SectionSize: 64
   UnityTerrain: {fileID: 563318385}
   UnityTerrainData: {fileID: 15600000, guid: 84b5d8c926940d545ba5d0b94779ac47, type: 2}
   TerrainSector:
@@ -270,11 +270,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -296,11 +296,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -322,11 +322,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -348,11 +348,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -374,11 +374,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -400,11 +400,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -426,11 +426,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -452,11 +452,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -478,11 +478,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -504,11 +504,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -530,11 +530,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -556,11 +556,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -582,11 +582,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -608,11 +608,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -634,11 +634,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -660,11 +660,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -686,11 +686,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -712,11 +712,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -738,11 +738,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -764,11 +764,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -790,11 +790,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -816,11 +816,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -842,11 +842,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -868,11 +868,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -894,11 +894,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -920,11 +920,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -946,11 +946,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -972,11 +972,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -998,11 +998,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1024,11 +1024,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1050,11 +1050,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1076,11 +1076,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1102,11 +1102,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1128,11 +1128,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1154,11 +1154,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1180,11 +1180,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1206,11 +1206,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1232,11 +1232,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1258,11 +1258,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1284,11 +1284,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1310,11 +1310,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1336,11 +1336,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1362,11 +1362,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1388,11 +1388,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1414,11 +1414,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1440,11 +1440,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1466,11 +1466,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1492,11 +1492,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1518,11 +1518,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1544,11 +1544,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1570,11 +1570,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1596,11 +1596,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1622,11 +1622,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1648,11 +1648,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1674,11 +1674,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1700,11 +1700,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1726,11 +1726,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1752,11 +1752,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1778,11 +1778,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1804,11 +1804,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1830,11 +1830,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1856,11 +1856,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1882,11 +1882,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1908,11 +1908,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1934,11 +1934,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1960,11 +1960,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -1986,11 +1986,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2012,11 +2012,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2038,11 +2038,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2064,11 +2064,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2090,11 +2090,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2116,11 +2116,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2142,11 +2142,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2168,11 +2168,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2194,11 +2194,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2220,11 +2220,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2246,11 +2246,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2272,11 +2272,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2298,11 +2298,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2324,11 +2324,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2350,11 +2350,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2376,11 +2376,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2402,11 +2402,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2428,11 +2428,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2454,11 +2454,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2480,11 +2480,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2506,11 +2506,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2532,11 +2532,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2558,11 +2558,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2584,11 +2584,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2610,11 +2610,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2636,11 +2636,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2662,11 +2662,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2688,11 +2688,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2714,11 +2714,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2740,11 +2740,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2766,11 +2766,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2792,11 +2792,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2818,11 +2818,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2844,11 +2844,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2870,11 +2870,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2896,11 +2896,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2922,11 +2922,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2948,11 +2948,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -2974,11 +2974,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3000,11 +3000,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3026,11 +3026,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3052,11 +3052,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3078,11 +3078,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3104,11 +3104,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3130,11 +3130,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3156,11 +3156,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3182,11 +3182,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3208,11 +3208,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3234,11 +3234,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3260,11 +3260,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3286,11 +3286,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3312,11 +3312,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3338,11 +3338,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3364,11 +3364,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3390,11 +3390,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3416,11 +3416,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3442,11 +3442,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3468,11 +3468,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3494,11 +3494,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3520,11 +3520,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3546,11 +3546,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3572,11 +3572,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3598,11 +3598,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3624,11 +3624,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3650,11 +3650,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3676,11 +3676,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3702,11 +3702,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3728,11 +3728,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3754,11 +3754,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3780,11 +3780,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3806,11 +3806,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3832,11 +3832,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3858,11 +3858,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3884,11 +3884,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3910,11 +3910,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3936,11 +3936,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3962,11 +3962,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -3988,11 +3988,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4014,11 +4014,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4040,11 +4040,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4066,11 +4066,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4092,11 +4092,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4118,11 +4118,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4144,11 +4144,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4170,11 +4170,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4196,11 +4196,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4222,11 +4222,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4248,11 +4248,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4274,11 +4274,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4300,11 +4300,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4326,11 +4326,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4352,11 +4352,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4378,11 +4378,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4404,11 +4404,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4430,11 +4430,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4456,11 +4456,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4482,11 +4482,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4508,11 +4508,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4534,11 +4534,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4560,11 +4560,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4586,11 +4586,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4612,11 +4612,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4638,11 +4638,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4664,11 +4664,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4690,11 +4690,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4716,11 +4716,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4742,11 +4742,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4768,11 +4768,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4794,11 +4794,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4820,11 +4820,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4846,11 +4846,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4872,11 +4872,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4898,11 +4898,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4924,11 +4924,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4950,11 +4950,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -4976,11 +4976,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5002,11 +5002,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5028,11 +5028,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5054,11 +5054,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5080,11 +5080,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5106,11 +5106,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5132,11 +5132,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5158,11 +5158,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5184,11 +5184,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5210,11 +5210,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5236,11 +5236,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5262,11 +5262,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5288,11 +5288,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5314,11 +5314,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5340,11 +5340,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5366,11 +5366,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5392,11 +5392,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5418,11 +5418,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5444,11 +5444,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5470,11 +5470,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5496,11 +5496,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5522,11 +5522,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5548,11 +5548,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5574,11 +5574,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5600,11 +5600,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5626,11 +5626,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5652,11 +5652,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5678,11 +5678,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5704,11 +5704,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5730,11 +5730,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5756,11 +5756,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5782,11 +5782,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5808,11 +5808,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5834,11 +5834,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5860,11 +5860,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5886,11 +5886,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5912,11 +5912,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5938,11 +5938,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5964,11 +5964,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -5990,11 +5990,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6016,11 +6016,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6042,11 +6042,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6068,11 +6068,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6094,11 +6094,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6120,11 +6120,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6146,11 +6146,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6172,11 +6172,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6198,11 +6198,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6224,11 +6224,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6250,11 +6250,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6276,11 +6276,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6302,11 +6302,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6328,11 +6328,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6354,11 +6354,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6380,11 +6380,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6406,11 +6406,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6432,11 +6432,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6458,11 +6458,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6484,11 +6484,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6510,11 +6510,11 @@ MonoBehaviour:
         y: 0
         z: -480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6536,11 +6536,11 @@ MonoBehaviour:
         y: 0
         z: -416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6562,11 +6562,11 @@ MonoBehaviour:
         y: 0
         z: -352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6588,11 +6588,11 @@ MonoBehaviour:
         y: 0
         z: -288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6614,11 +6614,11 @@ MonoBehaviour:
         y: 0
         z: -224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6640,11 +6640,11 @@ MonoBehaviour:
         y: 0
         z: -160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6666,11 +6666,11 @@ MonoBehaviour:
         y: 0
         z: -96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6692,11 +6692,11 @@ MonoBehaviour:
         y: 0
         z: -32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6718,11 +6718,11 @@ MonoBehaviour:
         y: 0
         z: 32
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6744,11 +6744,11 @@ MonoBehaviour:
         y: 0
         z: 96
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6770,11 +6770,11 @@ MonoBehaviour:
         y: 0
         z: 160
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6796,11 +6796,11 @@ MonoBehaviour:
         y: 0
         z: 224
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6822,11 +6822,11 @@ MonoBehaviour:
         y: 0
         z: 288
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6848,11 +6848,11 @@ MonoBehaviour:
         y: 0
         z: 352
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6874,11 +6874,11 @@ MonoBehaviour:
         y: 0
         z: 416
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
     - NumQuad: 0
       LODIndex: 0
       FractionLOD: 0
@@ -6900,11 +6900,11 @@ MonoBehaviour:
         y: 0
         z: 480
       LODSetting:
-        LastLODIndex: 0
-        LOD0ScreenSizeSquared: 0
-        LOD1ScreenSizeSquared: 0
-        LODOnePlusDistributionScalarSquared: 0
-        LastLODScreenSizeSquared: 0
+        LastLODIndex: 7
+        LOD0ScreenSizeSquared: 0.25
+        LOD1ScreenSizeSquared: 0.16000001
+        LODOnePlusDistributionScalarSquared: 7.8399997
+        LastLODScreenSizeSquared: 0.000005401816
 --- !u!1 &998063063
 GameObject:
   m_ObjectHideFlags: 0

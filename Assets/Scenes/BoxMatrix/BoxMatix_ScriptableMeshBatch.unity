@@ -154,8 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bUpdateStatic: 0
   bInit: 1
-  RenderScene:
-    name: RenderScene
 --- !u!4 &161730441
 Transform:
   m_ObjectHideFlags: 0

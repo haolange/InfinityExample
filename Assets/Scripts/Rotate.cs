@@ -20,7 +20,7 @@ public class Rotate : MonoBehaviour
     }
 
 #if UNITY_EDITOR
-    [MenuItem("GameObject/EntityAction/RandomRotateValue", false, -1000)]
+    [MenuItem("GameObject/EntityAction/RandomRotateValue", false, 9)]
     public static void SetEntityRandomRotateValue(MenuCommand menuCommand)
     {
         GameObject[] EntityList = Selection.gameObjects;

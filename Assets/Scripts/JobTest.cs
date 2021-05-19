@@ -316,8 +316,8 @@ public unsafe class JobTest : MonoBehaviour
         HashmapData.Add(4, 500);
 
         FHashmapParallelGatherValueJob<int, int> HashmapValueToArrayTask = new FHashmapParallelGatherValueJob<int, int>();
-        HashmapValueToArrayTask.Array = ValueArray;
-        HashmapValueToArrayTask.Hashmap = HashmapData;
+        HashmapValueToArrayTask.dscArray = ValueArray;
+        HashmapValueToArrayTask.srcMap = HashmapData;
 
         HashmapValueToArrayTask.Schedule(5, 1).Complete();
 

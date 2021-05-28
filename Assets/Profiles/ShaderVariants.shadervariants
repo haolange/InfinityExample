@@ -19,6 +19,10 @@ ShaderVariantCollection:
         passType: 13
       - keywords: INSTANCING_ON LIGHTMAP_ON
         passType: 13
+      - keywords: LIGHTMAP_OFF
+        passType: 13
+      - keywords: INSTANCING_ON LIGHTMAP_OFF
+        passType: 13
   - first: {fileID: 4800000, guid: e89dca435d9323a4c9caccc3f51a3fbf, type: 3}
     second:
       variants:

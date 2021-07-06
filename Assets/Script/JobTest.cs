@@ -157,7 +157,7 @@ public unsafe class JobTest : MonoBehaviour
         //NativeMultiHashmapTest();
         //NativeHashmapToArrayTest();
 
-        int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int), 64, Allocator.TempJob);
+        /*int* MyData = (int*)UnsafeUtility.Malloc(sizeof(int), 64, Allocator.TempJob);
         MyData[0] = 1;
 
         AtomicJob Atomic = new AtomicJob();
@@ -165,7 +165,7 @@ public unsafe class JobTest : MonoBehaviour
         Atomic.Run();
 
         print(MyData[0]);
-        UnsafeUtility.Free(MyData, Allocator.TempJob);
+        UnsafeUtility.Free(MyData, Allocator.TempJob);*/
         //NativeArray<int> Data = new NativeArray<int>(1, Allocator.TempJob);
     }
 
@@ -177,7 +177,7 @@ public unsafe class JobTest : MonoBehaviour
         //RunParallelJob();
         //NativeListTest();
         //ParallelWrite();
-        //SortTest();
+        SortTest();
 
         /*OneJob Task = new OneJob();
         Task.Schedule(512, 64);*/
@@ -384,7 +384,7 @@ public unsafe class JobTest : MonoBehaviour
 
     void SortTest()
     {
-        NativeArray<float> CopyData = new NativeArray<float>(Result.Length, Allocator.TempJob);
+        /*NativeArray<float> CopyData = new NativeArray<float>(Result.Length, Allocator.TempJob);
 
         ParallelCopy<float> CopyJob = new ParallelCopy<float>();
         CopyJob.InputArray = Result;
@@ -407,7 +407,7 @@ public unsafe class JobTest : MonoBehaviour
             SortHandle.Complete();
         }
 
-        CopyData.Dispose();
+        CopyData.Dispose();*/
     }
 
     void ParallelWrite()

@@ -304,27 +304,6 @@ public unsafe class JobTest : MonoBehaviour
         HashmapKey.Dispose();
     }
 
-    void NativeHashmapToArrayTest()
-    {
-        NativeArray<int> ValueArray = new NativeArray<int>(5, Allocator.TempJob);
-
-        NativeHashMap<int, int> HashmapData = new NativeHashMap<int, int>(5, Allocator.TempJob);
-        HashmapData.Add(0, 100);
-        HashmapData.Add(1, 200);
-        HashmapData.Add(2, 300);
-        HashmapData.Add(3, 400);
-        HashmapData.Add(4, 500);
-
-        FHashmapParallelGatherValueJob<int, int> HashmapValueToArrayTask = new FHashmapParallelGatherValueJob<int, int>();
-        HashmapValueToArrayTask.dscArray = ValueArray;
-        HashmapValueToArrayTask.srcMap = HashmapData;
-
-        HashmapValueToArrayTask.Schedule(5, 1).Complete();
-
-        ValueArray.Dispose();
-        HashmapData.Dispose();
-    }
-
     void NativeMultiHashmapTest()
     {
         NativeMultiHashMap<int, float> MultiMap = new NativeMultiHashMap<int, float>(16, Allocator.TempJob);

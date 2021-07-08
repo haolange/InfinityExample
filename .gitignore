@@ -5,6 +5,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Mm]emoryCaptures/
 .vsconfig
 Packages/packages-lock.json
 Packages/com.infinity.render-pipeline*

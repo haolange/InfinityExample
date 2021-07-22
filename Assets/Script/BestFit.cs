@@ -1,9 +1,13 @@
 using System.IO;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering;
 
 [ExecuteAlways]
 public class BestFit : MonoBehaviour
 {
+    public FormatUsage usage;
+    public GraphicsFormat format;
+    
     void OnEnable()
     {
         Texture2D texBestFit = new Texture2D(1024, 1024, TextureFormat.RGBA32, false, true);
@@ -16,5 +20,10 @@ public class BestFit : MonoBehaviour
         texBestFit.Apply();
 
         Shader.SetGlobalTexture("g_NormalScaleTable", texBestFit);
+    }
+
+    void FixedUpdate()
+    {
+        Debug.Log(SystemInfo.IsFormatSupported(format, usage));
     }
 }

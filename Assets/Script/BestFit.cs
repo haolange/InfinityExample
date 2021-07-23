@@ -2,7 +2,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
-[ExecuteAlways]
+[ExecuteInEditMode]
 public class BestFit : MonoBehaviour
 {
     public FormatUsage usage;
@@ -20,10 +20,5 @@ public class BestFit : MonoBehaviour
         texBestFit.Apply();
 
         Shader.SetGlobalTexture("g_NormalScaleTable", texBestFit);
-    }
-
-    void FixedUpdate()
-    {
-        Debug.Log(SystemInfo.IsFormatSupported(format, usage));
     }
 }

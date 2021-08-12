@@ -7,6 +7,20 @@ using Unity.Collections.LowLevel.Unsafe;
 using InfinityTech.Rendering.MeshPipeline;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Collections.Generic;
+using System;
+using static InfinityTech.Core.Native.FSortFactory;
+
+[BurstCompile]
+public struct SortJob : IJob
+{
+    public NativeArray<float> array;
+
+    public void Execute()
+    {
+        array.Sort();
+    }
+}
 
 [BurstCompile]
 public struct TestJob : IJob
@@ -137,17 +151,18 @@ public unsafe struct AtomicJob : IJob
 public unsafe class JobTest : MonoBehaviour
 {
     public int SortNum = 1024;
+    public bool CustomSort = false;
     public bool ParallelSort = true;
     NativeArray<float> Result;
 
     void OnEnable()
     {
-        /*Result = new NativeArray<float>(SortNum, Allocator.Persistent);
+        Result = new NativeArray<float>(SortNum, Allocator.Persistent);
 
         for(int i = 0; i < Result.Length; i++)
         {
-            Result[i] = Random.value;
-        }*/
+            Result[i] = UnityEngine.Random.value;
+        }
 
         //GCJobTest();
         //NativeHashmapTest();
@@ -363,30 +378,33 @@ public unsafe class JobTest : MonoBehaviour
 
     void SortTest()
     {
-        /*NativeArray<float> CopyData = new NativeArray<float>(Result.Length, Allocator.TempJob);
+        NativeArray<float> CopyData = new NativeArray<float>(Result.Length, Allocator.TempJob);
 
         ParallelCopy<float> CopyJob = new ParallelCopy<float>();
         CopyJob.InputArray = Result;
         CopyJob.OutputArray = CopyData;
-        JobHandle CopyHandle = CopyJob.Schedule(Result.Length, 512);
+        CopyJob.Schedule(Result.Length, 512).Complete();
 
         if (ParallelSort)
         {
-            JobHandle SortHandle = FSortFactory.ParallelSort(CopyData, CopyHandle);
-
-            SortHandle.Complete();
+            FSortFactory.ParallelSort(CopyData).Complete();
         } else {
-            JobHandle SortHandle = new FSortFactory.FQuicksortJob<float>()
+            if (CustomSort)
             {
-                array = CopyData,
-                left = 0,
-                right = CopyData.Length - 1
-            }.Schedule(CopyHandle);
-
-            SortHandle.Complete();
+                new FSortFactory.FQuicksortJob<float>()
+                {
+                    array = CopyData,
+                    left = 0,
+                    right = CopyData.Length - 1
+                }.Schedule().Complete();
+            } else {
+                SortJob sortJob;
+                sortJob.array = CopyData;
+                sortJob.Schedule().Complete();
+            }
         }
 
-        CopyData.Dispose();*/
+        CopyData.Dispose();
     }
 
     void ParallelWrite()
@@ -423,6 +441,6 @@ public unsafe class JobTest : MonoBehaviour
 
     void OnDisable()
     {
-        //Result.Dispose();
+        Result.Dispose();
     }
 }

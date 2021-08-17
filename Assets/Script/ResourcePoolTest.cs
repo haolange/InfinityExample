@@ -31,6 +31,6 @@ public class ResourcePoolTest : MonoBehaviour
 
     void OnDisable()
     {
-        m_ResourcePool.Disposed();
+        m_ResourcePool.Dispose();
     }
 }

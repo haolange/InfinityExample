@@ -7,11 +7,11 @@ public class ResourcePoolTest : MonoBehaviour
 {
     BufferDescription bufferADescription;
     BufferDescription bufferBDescription;
-    FResourceFactory m_ResourceFactory;
+    FResourcePool m_ResourcePool;
 
     void OnEnable()
     {
-        m_ResourceFactory = new FResourceFactory();
+        m_ResourcePool = new FResourcePool();
 
         bufferADescription = new BufferDescription(16, 4);
         bufferADescription.name = "BufferA";
@@ -22,15 +22,15 @@ public class ResourcePoolTest : MonoBehaviour
 
     void Update()
     {
-        BufferRef bufferA = m_ResourceFactory.AllocateBuffer(bufferADescription);
-        BufferRef bufferB = m_ResourceFactory.AllocateBuffer(bufferBDescription);
+        BufferRef bufferA = m_ResourcePool.AllocateBuffer(bufferADescription);
+        BufferRef bufferB = m_ResourcePool.AllocateBuffer(bufferBDescription);
 
-        m_ResourceFactory.ReleaseBuffer(bufferA);
-        m_ResourceFactory.ReleaseBuffer(bufferB);
+        m_ResourcePool.ReleaseBuffer(bufferA);
+        m_ResourcePool.ReleaseBuffer(bufferB);
     }
 
     void OnDisable()
     {
-        m_ResourceFactory.Disposed();
+        m_ResourcePool.Disposed();
     }
 }

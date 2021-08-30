@@ -2,7 +2,7 @@
   "dependencies": {
     "com.unity.addressables": "1.18.15",
     "com.unity.ads": "3.7.5",
-    "com.unity.analytics": "3.5.3",
+    "com.unity.analytics": "3.6.11",
     "com.unity.burst": "1.6.0-pre.2",
     "com.unity.collab-proxy": "1.7.1",
     "com.unity.collections": "0.17.0-preview.18",

@@ -11,24 +11,41 @@ ShaderVariantCollection:
   - first: {fileID: 4800000, guid: 6420b6a33e6ddca4ea1932d4965fe051, type: 3}
     second:
       variants:
-      - keywords: 
-        passType: 13
-      - keywords: LIGHTMAP_ON
-        passType: 13
       - keywords: INSTANCING_ON
         passType: 13
       - keywords: INSTANCING_ON LIGHTMAP_ON
         passType: 13
-      - keywords: LIGHTMAP_OFF
+      - keywords: LIGHTMAP_ON
         passType: 13
-      - keywords: INSTANCING_ON LIGHTMAP_OFF
+  - first: {fileID: 4800000, guid: 8561dde981e77bd41a9aca40b0e27cd1, type: 3}
+    second:
+      variants:
+      - keywords: 
         passType: 13
-  - first: {fileID: 4800000, guid: e89dca435d9323a4c9caccc3f51a3fbf, type: 3}
+  - first: {fileID: 4800000, guid: a4fe470b436749a4a9dced5e3c5ff2cb, type: 3}
+    second:
+      variants:
+      - keywords: _MASKMAP
+        passType: 13
+      - keywords: _NORMALMAP
+        passType: 13
+      - keywords: _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+  - first: {fileID: 4800000, guid: 3d29709e3f85bb049ac386852d78e79d, type: 3}
+    second:
+      variants:
+      - keywords: _MASKMAP
+        passType: 13
+      - keywords: _NORMALMAP
+        passType: 13
+      - keywords: _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+  - first: {fileID: 4800000, guid: 29bade52ca4282a4098c56f41a78b1dd, type: 3}
     second:
       variants:
       - keywords: 
         passType: 0
-  - first: {fileID: 4800000, guid: 29bade52ca4282a4098c56f41a78b1dd, type: 3}
+  - first: {fileID: 4800000, guid: e89dca435d9323a4c9caccc3f51a3fbf, type: 3}
     second:
       variants:
       - keywords: 

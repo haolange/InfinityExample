@@ -26,7 +26,7 @@ public class Sample : MonoBehaviour
  
     private int _batchIndex;
  
-    private void OnEnable()
+    /*private void OnEnable()
     {
         _batchRendererGroup = new BatchRendererGroup(CullingCallback);
         _batchIndex = _batchRendererGroup.AddBatch(
@@ -133,5 +133,5 @@ public class Sample : MonoBehaviour
                 quaternion.EulerXYZ(id + Vector3.one * Time), 
                 Vector3.one);
         }
-    }
+    }*/
 }

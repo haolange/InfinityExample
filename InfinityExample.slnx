@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Project Path="Unity.ShaderGraph.Editor.csproj" />
+  <Project Path="Unity.RenderPipelines.Infinity.Tests.csproj" />
+  <Project Path="Unity.RenderPipelines.Infinity.Runtime.csproj" />
+  <Project Path="Unity.RenderPipelines.Infinity.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>
